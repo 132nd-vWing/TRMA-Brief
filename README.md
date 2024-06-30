@@ -6,22 +6,21 @@ The 132nd Virtual Wing is based at Bodø Airbase, Norway. The 132nd conducts loc
 
 
 ### Important information (Not updated from ATRM)
-* [How-to for external particpants](/ATRM_Brief/Pages/External.html)
-* [Carrier admin](/ATRM_Brief/Pages/Carrier.html)
-* [Navigation (FLIP v1.3)](https://cloud.132virtualwing.org/s/aw8dF8Cmxo2dcP2)
-* [CombatFlite file for planning](/ATRM_Brief/Files/ATRM Combat Flite.cf)
-* [Red Force Doctrine](/ATRM_Brief/Pages/Generic_groundforce.html)
-* [Radio frequencies](/Pages/Presets.md)
-* [Standing SPINS](/ATRM_Brief/Pages/SPINS.html)
-* [Tanker information](/ATRM_Brief/Pages/Tanker.html)
-* [Airspace boundaries in Tacview](https://cloud.132virtualwing.org/s/2tGEax7xEqYGAXy)
+* [How-to for external particpants](/ATRM_Brief/Pages/External.html)  NOT UPDATED
+* [Carrier admin](/ATRM_Brief/Pages/Carrier.html)  NOT UPDATED
+* [Navigation (FLIP v1.3)](https://cloud.132virtualwing.org/s/aw8dF8Cmxo2dcP2)  NOT UPDATED
+* [CombatFlite file for planning](/ATRM_Brief/Files/ATRM Combat Flite.cf)  NOT UPDATED
+* [Red Force Doctrine](/ATRM_Brief/Pages/Generic_groundforce.html)  NOT UPDATED
+* [Radio frequencies](/Pages/Presets.md)  NOT UPDATED
+* [Standing SPINS](/ATRM_Brief/Pages/SPINS.html)  NOT UPDATED
+* [Tanker information](/ATRM_Brief/Pages/Tanker.html)  NOT UPDATED
+* [Airspace boundaries in Tacview](https://cloud.132virtualwing.org/s/2tGEax7xEqYGAXy)  NOT UPDATED
 
 
 ## Exercises (Not updated from ATRM)
 The 132nd host various advanced training exercises. <br>
 <br>
-[Exercise Red Storm: A-A and A-G Focus](/ATRM_Brief/Pages/Exredstorm.html) | [Exercise Green Storm: A-G Focus](/ATRM_Brief/Pages/Exgreenstorm.html)   
-[Exercise Green Shield: A-G Focus (Scenario for OPAR)](/ATRM_Brief/Pages/Exgreenshield.html)  
+TO BE COMPLETED ONCE WE CREATE ADVANCED EXERCISE SCENARIOS 
 
 ## Taskings (Not updated from ATRM)
 Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
