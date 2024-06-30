@@ -1,9 +1,11 @@
 ## Welcome to TRMA
 
-The 132nd Virtual Wing is deployed to the Persian Gulf in a capacity to provide assurance to the local area. Whilst deployed, the Wing will conduct training exercises and, if necessary, provide a reactionary defensive capacity for the local area.
+The 132nd Virtual Wing is based at Bodø Airbase, Norway. The 132nd conducts local training, advanced training and scenario training in the territory of Norway, Sweden and Finland.
 
 
-### Important information
+
+
+### Important information (Not updated from ATRM)
 * [How-to for external particpants](/ATRM_Brief/Pages/External.html)
 * [Carrier admin](/ATRM_Brief/Pages/Carrier.html)
 * [Navigation (FLIP v1.3)](https://cloud.132virtualwing.org/s/aw8dF8Cmxo2dcP2)
@@ -15,13 +17,13 @@ The 132nd Virtual Wing is deployed to the Persian Gulf in a capacity to provide 
 * [Airspace boundaries in Tacview](https://cloud.132virtualwing.org/s/2tGEax7xEqYGAXy)
 
 
-## Exercises
+## Exercises (Not updated from ATRM)
 The 132nd host various advanced training exercises. <br>
 <br>
 [Exercise Red Storm: A-A and A-G Focus](/ATRM_Brief/Pages/Exredstorm.html) | [Exercise Green Storm: A-G Focus](/ATRM_Brief/Pages/Exgreenstorm.html)   
 [Exercise Green Shield: A-G Focus (Scenario for OPAR)](/ATRM_Brief/Pages/Exgreenshield.html)  
 
-## Taskings
+## Taskings (Not updated from ATRM)
 Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
 - AR, Range 3: [AR SCUD Hunt](/ATRM_Brief/Ranges/Range3.html)
 - AR, Range 6: [AR SCUD Hunt](https://drive.google.com/file/d/1xxE0vPuC7S1tXJR-8FaYUmf7htN7NbAU/view?usp=sharing)
@@ -45,10 +47,7 @@ Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
 
 
 
-![Ranges and MOAs](/Pictures/Range_MOA_overview.PNG)
+![Ranges and MOAs](/GRAPHICS/TRMA Range layout.PNG)
 
 
 
-## Terminal Maneuver Area (TMA) and Transit Corridors (TC)
-
-![TMA and transit corridors](/Pictures/Transitcorridors.PNG)
