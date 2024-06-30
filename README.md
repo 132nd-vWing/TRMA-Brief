@@ -11,7 +11,7 @@ The 132nd Virtual Wing is based at Bodø Airbase, Norway. The 132nd conducts loc
 * [Navigation (FLIP v1.3)](https://cloud.132virtualwing.org/s/aw8dF8Cmxo2dcP2)  NOT UPDATED
 * [CombatFlite file for planning](/ATRM_Brief/Files/ATRM Combat Flite.cf)  NOT UPDATED
 * [Red Force Doctrine](/TRMA-Brief/INTELLIGENCE/INTELLIGENCE.html) 
-* [Radio frequencies](/COMMUNICATIONS/Presets.md)  
+* [Radio frequencies](/COMMUNICATIONS/PRESETS.md)  
 * [Standing SPINS](/ATRM_Brief/Pages/SPINS.html)  NOT UPDATED
 * [Tanker information](/ATRM_Brief/Pages/Tanker.html)  NOT UPDATED
 * [Airspace boundaries in Tacview](https://cloud.132virtualwing.org/s/2tGEax7xEqYGAXy)  NOT UPDATED
