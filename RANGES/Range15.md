@@ -36,9 +36,9 @@ and know where they are. Enemy units are hidden from the F10 map and you need to
 - Target area (centergrid): N67 24.000 E014 39.000, elev 50ft
 - Friendly mortar position: N67 24.600 E014 37.700
 
-![Locations](/TRMA-Brief/GRAPHICS/Range13_map.PNG)
-![Locations](/TRMA-Brief/GRAPHICS/Range13_map_blue_units.PNG)
-![Locations](/TRMA-Brief/GRAPHICS/Range13_map_blue_units_zoom.PNG)
+![Locations](/TRMA-Brief/GRAPHICS/Range15_map.PNG)
+![Locations](/TRMA-Brief/GRAPHICS/Range15_map_blue_units.PNG)
+![Locations](/TRMA-Brief/GRAPHICS/Range15_map_blue_units_zoom.PNG)
 
 
 ### ADMIN
