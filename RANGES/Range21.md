@@ -9,7 +9,7 @@ The FW MQT checkout have two fixed targets (warehouse) in the area of Tromsø (T
 
 
 ### Locations
-![Locations](/TRMA-Brief/GRAPHICS/Range24_map.PNG)
+![Locations](/TRMA-Brief/GRAPHICS/Range21_map.PNG)
 
 
 ### ADMIN

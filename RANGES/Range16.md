@@ -7,9 +7,9 @@ FLOT is simulated to be SOUTH of range 16.
 
 ### Tasking
 AR mission is to conduct a AR mission in range 16.
-Task 1: Confirm size and location of mechanized division in range 16 (Company, Battalion, Brigade or full Division)
-Task 2: Attack targets IAW target priority 
-Task 3: Destroy 50% of infantry fighting vehicles (IFVs)
+- Task 1: Confirm size and location of mechanized division in range 16 (Company, Battalion, Brigade or full Division)
+- Task 2: Attack targets IAW target priority 
+- Task 3: Destroy 50% of infantry fighting vehicles (IFVs)
 
 
 **Target priority:
@@ -23,7 +23,7 @@ Task 3: Destroy 50% of infantry fighting vehicles (IFVs)
 2. Silkworm missile battery
 3. MLRS
 
-*If any time sensitive targets is encountered, targets should be neuralized as soon as possible.
+*If any time sensitive targets is encountered, targets should be neutralized as soon as possible.
 
 
 
