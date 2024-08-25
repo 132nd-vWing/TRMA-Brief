@@ -1,5 +1,7 @@
 # Tanker information
 
+All tankers need to be activated via F10 menu.
+
 ## BLUEFOR
 
 ### KC-135
