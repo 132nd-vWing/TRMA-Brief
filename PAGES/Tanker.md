@@ -8,7 +8,6 @@ All tankers need to be activated via F10 menu.
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  |
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-
 **ARCO 1**   | AR 201     | 200    | 40X       | 280.0 MHz     | 5201     | 
 **ARCO 2**   | AR 202     | 200    | 41X       | 281.0 MHz     | 5202    | 
 **ARCO 3**   | AR 203     | 200    | 42X       | 282.0 MHz     | 5203     | 
