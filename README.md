@@ -9,7 +9,7 @@ The 132nd Virtual Wing is based at Bodø Airbase, Norway. The 132nd conducts loc
 * [How-to for external particpants](/ATRM_Brief/Pages/External.html)  NOT UPDATED
 * [Carrier admin](/ATRM_Brief/Pages/Carrier.html)  NOT UPDATED
 * [Navigation (FLIP v1.3)](https://cloud.132virtualwing.org/s/aw8dF8Cmxo2dcP2)  NOT UPDATED
-* [CombatFlite file for planning](/TRMA-Brief/PAGES/TRMA Combatflite file.cf)  WIP
+* [CombatFlite file for planning](/TRMA-Brief/PAGES/TRMA Combatflite file.cf)  
 * [Red Force Doctrine](/TRMA-Brief/INTELLIGENCE/INTELLIGENCE.html) 
 * [Radio frequencies](/COMMUNICATIONS/PRESETS.md)  
 * [Standing SPINS](/TRMA-Brief/PAGES/SPINS.html)  NOT UPDATED
@@ -27,8 +27,8 @@ Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
 
 
 ## RANGES
-[Range 11](/TRMA-Brief/RANGES/Range11.html) | [Range 15](/TRMA-Brief/RANGES/Range15.html) | [Range 16](/TRMA-Brief/RANGES/Range16.html)| 
-[Range 21](/TRMA-Brief/RANGES/Range21.html) | [Range 22](/TRMA-Brief/RANGES/Range22.html) | [Range 23](/TRMA-Brief/RANGES/Range23.html)|[Range 24](/TRMA-Brief/RANGES/Range24.html) |
+[Range 11](/TRMA-Brief/RANGES/Range11.html) | [Range 13](/TRMA-Brief/RANGES/Range13.html) |[Range 15](/TRMA-Brief/RANGES/Range15.html) |[Range 16](/TRMA-Brief/RANGES/Range16.html)| 
+[Range 21](/TRMA-Brief/RANGES/Range21.html) | [Range 22](/TRMA-Brief/RANGES/Range22.html) |[Range 23](/TRMA-Brief/RANGES/Range23.html)|[Range 24](/TRMA-Brief/RANGES/Range24.html) |
 
 
 
