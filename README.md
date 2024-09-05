@@ -27,7 +27,7 @@ Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
 
 
 ## RANGES
-[Range 11](/TRMA-Brief/RANGES/Range11.html) | [Range 13](/TRMA-Brief/RANGES/Range13.html) |[Range 15](/TRMA-Brief/RANGES/Range15.html) |[Range 16](/TRMA-Brief/RANGES/Range16.html)| 
+[Range 11](/TRMA-Brief/RANGES/Range11.html) | [Range 13](/TRMA-Brief/RANGES/Range13.html) |[Range 12](/TRMA-Brief/RANGES/Range12.html)|[Range 15](/TRMA-Brief/RANGES/Range15.html) |[Range 16](/TRMA-Brief/RANGES/Range16.html)| 
 [Range 21](/TRMA-Brief/RANGES/Range21.html) | [Range 22](/TRMA-Brief/RANGES/Range22.html) |[Range 23](/TRMA-Brief/RANGES/Range23.html)|[Range 24](/TRMA-Brief/RANGES/Range24.html) |
 
 
