@@ -54,6 +54,7 @@ The SCUD HUNT scenario can also be conducted with the SCUDs beeing protected by 
 - Scenario training IADS need to be activated and decativated using the F10 menu.
 - AR Scenario "SCUD HUNT": Need to be enabled as the flight crosses into range 23 (too soon you will not have enough time, too late you might miss the intended action)
 - IADS for AR Scenario "SCUD HUNT" need to be seperatly activated in the F10 menu if you want the difficult version.
+- IADS for AR Scenario "SCUD HUNT" makes it not possible to use tanker tracks AR 202 and AR302 in Range 23.
 
 
 
