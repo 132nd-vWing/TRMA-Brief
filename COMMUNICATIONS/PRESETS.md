@@ -8,7 +8,7 @@
 - [OH-58 Presets](/TRMA-Brief/COMMUNICATIONS/AH64 Presets.pdf)  (NOT UPDATED)
 
 ## DATALINK
-- [Datalink onepager](/TRMA-Brief/COMMUNICATIONS/Datalink.pdf)  (NOT UPDATED)
+- [Datalink onepager](/TRMA-Brief/COMMUNICATIONS/Datalink.pdf)  
 
 
 ## TRMA communication masterfile
