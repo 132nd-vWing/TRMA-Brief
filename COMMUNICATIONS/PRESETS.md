@@ -5,7 +5,7 @@
 - [F-16 Presets](/TRMA-Brief/COMMUNICATIONS/F16_presets.pdf)  
 - [F-14 Presets](/TRMA-Brief/COMMUNICATIONS/F14 Presets.pdf)  (NOT UPDATED)
 - [AH-64 Presets](/TRMA-Brief/COMMUNICATIONS/AH64 Presets.pdf)  (NOT UPDATED)
-- [OH-58 Presets](/TRMA-Brief/COMMUNICATIONS/AH64 Presets.pdf)  (NOT UPDATED)
+- [OH-58 Presets](/TRMA-Brief/COMMUNICATIONS/OH58_presets.pdf)  (NOT UPDATED)
 
 ## DATALINK
 - [Datalink onepager](/TRMA-Brief/COMMUNICATIONS/Datalink.pdf)  
