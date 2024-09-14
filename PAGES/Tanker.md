@@ -22,6 +22,12 @@ All tankers need to be activated via F10 menu.
 **SHELL 3**  | AR 303     | 240    | 48Y       | 287.0 MHz     | 5303     | 
 **SHELL 4**  | AR 304     | 240    | 49Y       | 286.0 MHz     | 5304     | 
 
+### KC-130 MPRS
+
+**FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  | 
+ --------- | -----------| ------ | ------    | -----------   | -------- | 
+**SHELL 7**  | AR 305     | 050   | 46X      | 281.5 MHz     | 5307    | 
+
 
 ## REDFOR
 
