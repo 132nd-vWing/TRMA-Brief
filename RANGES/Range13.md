@@ -38,7 +38,7 @@ Tasks:
 ### ADMIN
 - See CombatFlite file for locations
 - Start scenario from waypoint "Start AR scenario STORJORD" (in CombatFlite)
-- Use F10 to activate scenario when entering range
+- Use F10 to activate scenario when entering range (Earliest activation should be as flights taxi or take off from Bodø).
 
 
 
