@@ -10,7 +10,8 @@
 - CVN LAND/LAUNCH/TOWER/LSO 309.1   (standard Frequency to use when on the deck, launching, recovering)
 - CVN MARSHALL 309.2  
 - AI ATC (Lights): 309.5  (only use during CASE III)
-
+- Link4 ACLS Frequency 331 (Morse Code A73)
+  
 ## Recovery Tanker
 - will start up and launch as first plane, will recover as last plane (please leave one catapult free for the recovery tanker to get airborn first)
 - Frequency 142.5
