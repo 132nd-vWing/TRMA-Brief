@@ -8,9 +8,9 @@ All tankers need to be activated via F10 menu.
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  |
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**ARCO 1**   | AR 201     | 200    | 40X       | 280.0 MHz     | 5201     | 
-**ARCO 2**   | AR 202     | 200    | 41X       | 281.0 MHz     | 5202    | 
-**ARCO 3**   | AR 203     | 200    | 42X       | 282.0 MHz     | 5203     | 
+**ARCO 1**   | AR 201     | 200    | 40Y       | 280.0 MHz     | 5201     | 
+**ARCO 2**   | AR 202     | 200    | 41Y       | 281.0 MHz     | 5202    | 
+**ARCO 3**   | AR 203     | 200    | 42Y       | 282.0 MHz     | 5203     | 
 
 
 ### KC-135 MPRS
@@ -35,8 +35,9 @@ All tankers need to be activated via F10 menu.
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  | 
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**ARCO 4**  | AR 401     | 200    | 43X       | 283.0 MHz     | 5204    | 
-**ARCO 5**  | AR 402     | 200    | 44X       | 284.0 MHz     | 5205    | 
+**ARCO 4**  | AR 401     | 200    | 43Y       | 283.0 MHz     | 5204    | 
+**ARCO 5**  | AR 402     | 200    | 44Y       | 284.0 MHz     | 5205    | 
+**ARCO 6**  | AR 403     | 200    | 40X       | 284.5 MHz     | 5206    | 
 
 ### KC-135 MPRS
 
@@ -44,10 +45,12 @@ All tankers need to be activated via F10 menu.
  --------- | -----------| ------ | ------    | -----------   | -------- | 
 **SHELL 5**  | AR 501     | 240    | 64Y       | 285.0 MHz     | 5305     | 
 **SHELL 6**  | AR 502     | 240    | 65Y       | 280.5 MHz     | 5306     | 
+**SHELL 7**  | AR 504     | 240    | 47X       | 285.5 MHz     | 5307     | 
 
-## Maps
+## Locations
+See CombatFlite file for locations
 
-![Tanker locations](/TRMA-Brief/GRAPHICS/TRMA_Tankers.PNG)
+
 
 
 
