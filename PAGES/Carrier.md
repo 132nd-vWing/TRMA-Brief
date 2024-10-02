@@ -3,6 +3,7 @@
 ## BLUE Carrier
 - CVN-73 George Washington
 - The Carrier will start turning into the Wind at Minute 20 (Real Time, not Mission Time)
+- The Carrier will stop the cycle and turn back to it' previous heading 35 Minutes later.
 - Depending on the current Weather and Heading of the Carrier, this can take more or less time. Assume that it will take at least 5 Minutes before the Carrier will be on the correct heading
 - When the Carrier is in Recovery Mode, users have the Option to request a 5 Minute Extension. Users can request those extensions multiple times to make sure everyone gets on board
 - Current Weather, Carrier Heading and BRC can be requested via 'Carrier Info' 
