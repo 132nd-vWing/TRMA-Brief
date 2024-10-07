@@ -23,7 +23,7 @@ The 132nd host various advanced training exercises. <br>
 <br>
 TO BE COMPLETED ONCE WE CREATE ADVANCED EXERCISE SCENARIOS 
 
-## Taskings (Not updated from ATRM)
+## Taskings 
 Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
 * [Strike+OCA Escort, range 23](/TRMA-Brief/TASKINGS/132nd Strike and OCA Escort v1.0 TRMA.pdf)
 
