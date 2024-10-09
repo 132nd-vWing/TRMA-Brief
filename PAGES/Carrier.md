@@ -1,108 +1,121 @@
-# TRMA Carrier information
+# TRMA CVN-73 Carrier Control George Washington
 
-## BLUE Carrier
-- CVN-73 George Washington
-- The Carrier will start turning into the Wind at Minute 20 (Real Time, not Mission Time)
-- The Carrier will stop the cycle and turn back to it' previous heading 35 Minutes later.
-- Depending on the current Weather and Heading of the Carrier, this can take more or less time. Assume that it will take at least 5 Minutes before the Carrier will be on the correct heading
-- When the Carrier is in Recovery Mode, users have the Option to request a 5 Minute Extension. Users can request those extensions multiple times to make sure everyone gets on board
-- Current Weather, Carrier Heading and BRC can be requested via 'Carrier Info' 
-- TACAN: 13X  (Morse Code T13)
-- ICLS: 13    (Morse Code I13)
-- CVN LAND/LAUNCH/TOWER/LSO 309.1   (standard Frequency to use when on the deck, launching, recovering)
-- CVN MARSHALL 309.2  
-- AI ATC frequence is NOT used anymore. Use 309.1 and 309.2 only. Lights do not have to be requested anymore via the ED in game ATC, they will be set automatically. 
-- Link4 ACLS Frequency 331 (Morse Code A73)
-  
-## Recovery Tanker
-- will start up and launch as first plane, will recover as last plane (please leave one catapult free for the recovery tanker to get airborn first)
-- Frequency 142.5
-- TACAN 64Y (AA)
- 
-## Special CASE II/III Instructions
+Welcome to the CVN-73 carrier operations! This guide explains how the carrier operates automatically and how you, as a pilot, can interact with it during recovery operations.  
+Please note, all timings referenced here are in **real time**, not game time, meaning that they correspond to the actual time of the server PC hosting the mission.  
+Detailed descriptions of Special Operating Procedures during Carrier Operations within the 132nd Virtual Wing please refer to **132-TTP-19**.
 
-Since we are no longer using the ED in-game ATC at all, we make use of a new Script, that is used only in CASE II and CASE III procedures. 
-Here is a detailed description, please provide feedback and feel free to suggest changes:
+## Navigation and Communication Information
 
-# Instructions for Using the CASE 3 Marshall Stack System
+- **TACAN**: Channel 13X, identifier "T73"
+- **ICLS**: Channel 13, identifier "I73"
+- **Datalink**: 331 MHz, identifier "A73"
+- **ACLS**: Activated on 331 MHz, identifier "A73"
+- **Recovery Tanker Radio Frequency**: 142.5 MHz
+- **Recovery Tanker TACAN**: Channel 64Y, identifier "SH1"
+- **Carrier AI Frequency**: 309.5 MHz
 
-Welcome to the CASE 3 Marshall Stack System! This tool is designed to help players manage landing sequences in a realistic carrier recovery operation. Here’s a simple guide on how to use it.
+**Note on the AI Frequency**: This frequency is NOT monitored, and no calls are made on this frequency.  
+The sole purpose of the AI Frequency is to activate ACLS functionality, if pilots want to choose to do so.
 
----
+## Cyclic Operations
 
-## Overview
+- **Timing**: CVN-73 opens a recovery window at **20 minutes past every hour (real time)**. For example, a recovery window would start at 14:20, 15:20, and so on.
+- **Duration**: Each recovery window remains open for **35 minutes**, providing a dedicated period for aircraft to land on the carrier.
+- During this time, the carrier will turn into the wind, creating ideal conditions for safe landings.
 
-This system allows players to:
-- **Join** the Marshall Stack (CASE III) when they're ready to recover.
-- **Leave** the stack if they no longer want to land.
-- **View** the current stack positions to see their landing order.
-- **Automatically update** positions when players join, leave, or disconnect.
-- **Receive notifications** relevant to players in the Marshall Stack.
+**Note**: At minute 20, the carrier will start its turn into the wind. Depending on weather and current carrier heading, the turn can take up to 5 minutes to complete.
 
----
+## Short Descriptopm of the Communication Flow (detailed instructions in **132-TTP-19**)
+# Departure
+ -  Monitor Tower Freq (309.100) and do all radio calls on Tower until after the Departure, then switch to Marshall frew (309.200). Do NOT use the carrier AI Freq (309.500)
+# Recovery
+ -  Before entering the Marshall Area, give a radio call to Marshall on 309.200 to check in (Do NOT use the AI Freq, do NOT use the ED ATC)  
 
-## How to Use the System
+ -  ## CASE I: Stay on Marshall Freq from the time of Checkin until AFTER you announced 'Modex xxx, Commencing'
+ -  AFTER the Commence call (on Marshall), switch to Tower (309.100), your next call will be 'Modex xxx, Initials', then the Ball call. Other pilots, do not transmit when another called the Ball, until they report 'Green Deck'
+   
+ -  ## CASE III: If a human Marshall Controller is present, work with them. If not, use the script (outline below) to add your Modex to the Marshall Queue.
+ -  Call 'Modex xxx, Established when you enter your assigned holding
+ -  At your assigned Push Time, call 'Modex xxx, Commencing' on Marshall Freq. If you cannot meet your Push Time, announce it on Marshall so other pilots can adjust their timings accordingly, or leave the Marshall stack and re-enter to get a new hold and time assigned at the end of the queue
+ -  AFTER your Commence call, switch to Tower (309.100), your next call will be 'Modex xxx, Platform'. Make all futher calls on Tower Freq unless you have to enter Marshalling again
 
-### 1. Enter the Marshall Zone
+Note, for ACLS functionality, in DCS ACLS relies on checking in with the ED ATC. If you intend to use ACLS, use the ED ATC menu to make your call on AI Freq (309.500), but switch back to the correct frequency (Marshall or Tower) ASAP. 
+No calls are made on AI Freq, as this is not monitored by anyone.
 
-- When you fly within **50 nautical miles** of the carrier, you will automatically be detected and enter the **Marshall Zone**.
-- Once you're in this zone, a menu option will appear for you to **add yourself to the Marshall Stack (CASE III only)**.
 
-### 2. Add Yourself to the Marshall Stack
+### Recovery Tanker Support
 
-- To add yourself to the Marshall Stack, open the menu labeled **"Case 3 Operations"** in your comms or command menu.
-- Select **[Your Name] - Add Yourself to the Marshall Stack (CASE III only)** from the options.
-- Once you join the stack:
-  - You’ll be assigned a position in the **Push-Sequence**.
-  - The system will dynamically create an option for you to **Leave the Stack** if needed.
+A recovery tanker will be launched when the recovery window opens. Please leave room on the deck for the tanker to taxi to the catapult and allow the recovery tanker to launch as the first plane.  
+The tanker will remain airborne until the end of the recovery window, when it will return to base. There is a delay for the tanker to recover, so it should be the last plane to land.
 
-### 3. Leave the Marshall Stack
+## Player Menu Options to interact with the Carrier
 
-- If you decide not to land or no longer need to be in the stack, you can choose the **Leave Stack** option in the **Case 3 Operations** menu.
-- This will remove you from the Marshall Stack and update the positions of other players.
+```markdown
+F10 Menu other/
+└── Carrier Control
+    ├── CVN-73 Carrier Information
+    ├── CVN-73 Admin
+    │   ├── Extend current recovery window by 5 Minutes
+    │   ├── Debug: Start Cycle Manually
+    │   └── Clear Marshall Queue
+    ├── CVN-73 CASE II/III Marshall
+    │   ├── Display the Marshall Stack
+    │   ├── Panthers
+    │   │   └── [Contains options for adding/removing flights 300-326]
+    │   └── Spectres
+    │       └── [Contains options for adding/removing flights 200-226]
+```
 
-### 4. View the Current Marshall Stack
+This is an overview of the menu tree accessible to the pilots. Please note the carrier will reply or send information only to pilots currently within the Marshalling Area (50nm around the boat).  
+If you do not get a reply from the Carrier, get within the Marshall Area, then try again.
 
-- To see the current Marshall Stack order, select **"Display the Marshall Stack"** from the **Case 3 Operations** menu.
-- This will show you the list of all players in the stack, including:
-  - Their assigned positions.
-  - The distance from the carrier (Marshall Mother).
-  - Altitude (stack height).
-  - The **push time** (when each player should start their approach).
+# CVN-73 Carrier Information
 
-### 5. Automatic Updates
+Provides real-time updates on the carrier's current state:
+- Whether a cycle is open.
+- The heading of the carrier.
+- Information about the wind direction and wind speed over the deck.
+- Expected **Final Bearing (FB)** and **QNH** (pressure setting).
 
-- If a player disconnects or leaves the Marshall Zone, they are automatically removed from the stack, and the positions are updated for everyone else.
-- The system ensures that all changes in the stack are reflected in real-time.
+**Note**: You will know when the carrier has finished its turn when the reported carrier heading equals the expected BRC as reported by the Carrier Information menu.
 
-### 6. Notifications
+## CVN-73 Admin
 
-- You will receive notifications when:
-  - You join or leave the stack.
-  - Someone else leaves or is removed from the stack.
-  - Your position in the stack changes.
-  - The current Marshall Stack (push sequence) is displayed.
+- **Extend current recovery window by 5 Minutes**: This option will only appear when a cycle is open. You can delay the time before the carrier ends the cycle by 5 minutes when you activate this functionality.  
+  This can be called multiple times if required. The new window end time will be updated accordingly and can be retrieved by the CVN-73 Carrier Information function.
 
----
+### Debug: Start Cycle Manually
 
-## Summary of Commands
+- This is for testing and own training only, not to be used in 132nd Training events unless allowed by the event host.  
+  This will make the carrier turn immediately and open a new cycle with the standard duration.
 
-- **Add Yourself to the Marshall Stack (CASE III only)**: Adds you to the Marshall Stack and assigns a position in the push-sequence.
-- **Leave the Marshall Stack**: Removes you from the stack and adjusts the positions of other players.
-- **Display the Marshall Stack**: Shows the current list of players in the Marshall Stack and their positions.
+### Clear Marshall Queue
 
----
+- This is also for testing and problem-solving. This will kick everyone from the **CASE II/CASE III Marshall Stack** (see functionality described below).
 
-## Important Notes
+# CVN-73 CASE II/III Marshall
 
-- You will only receive notifications and updates if you are within the **Marshall Zone** (50 nautical miles from the carrier).
-- Positions are based on when you add yourself to the stack. The first person to join will have the earliest push time, and subsequent players will follow based on their join order.
-- If you disconnect, the system will automatically remove you from the stack to ensure a smooth operation for other players.
+This functionality can be used when **CASE II/III Marshalling** is required and no controllers are present.  
+Pilots can add any **Modex** to the Marshall queue; those Modex numbers will then be stacked by the time of being added (first come, first serve).
 
----
+## Display the Marshall Stack
+
+At any time, all players within the Marshall can request the current Marshall Stack information.  
+Here is an example output (Note: as with all Carrier functionality, this will be displayed only within the Marshall Area):
+
+```
+Current Marshall Queue:
+Expect Final Bearing 352, QNH 3001
+Hornet 311, Marshall from Mother at 343/22, at Angels 7. Pushtime Minute 31.
+Tomcat 201, Marshall from Mother at 343/23, at Angels 8. Pushtime Minute 32.
+Hornet 302, Marshall from Mother at 343/24, at Angels 9. Pushtime Minute 33.
+```
+
+# Panthers and Spectres Submenus
+
+Here, pilots can add/remove their (or anyone else's) Modex to/from the Marshall Stack.  
+If a number is removed, the stack will collapse and update accordingly.
 
 ## Back
+
 [Back to frontpage](https://132nd-vwing.github.io/TRMA_Brief/)
-
-
-
