@@ -1,8 +1,9 @@
+
 # TRMA CVN-73 Carrier Control George Washington
 
 Welcome to the CVN-73 carrier operations! This guide explains how the carrier operates automatically and how you, as a pilot, can interact with it during recovery operations.  
 Please note, all timings referenced here are in **real time**, not game time, meaning that they correspond to the actual time of the server PC hosting the mission.  
-Detailed descriptions of Special Operating Procedures during Carrier Operations within the 132nd Virtual Wing please refer to **132-TTP-19**.
+For detailed descriptions of Special Operating Procedures during Carrier Operations within the 132nd Virtual Wing, please refer to **132-TTP-19**.
 
 ## Navigation and Communication Information
 
@@ -14,8 +15,7 @@ Detailed descriptions of Special Operating Procedures during Carrier Operations 
 - **Recovery Tanker TACAN**: Channel 64Y, identifier "SH1"
 - **Carrier AI Frequency**: 309.5 MHz
 
-**Note on the AI Frequency**: This frequency is NOT monitored, and no calls are made on this frequency.  
-The sole purpose of the AI Frequency is to activate ACLS functionality, if pilots want to choose to do so.
+> **Note**: This frequency is NOT monitored, and no calls are made on this frequency. The sole purpose of the AI Frequency is to activate ACLS functionality if pilots choose to do so.
 
 ## Cyclic Operations
 
@@ -23,10 +23,10 @@ The sole purpose of the AI Frequency is to activate ACLS functionality, if pilot
 - **Duration**: Each recovery window remains open for **35 minutes**, providing a dedicated period for aircraft to land on the carrier.
 - During this time, the carrier will turn into the wind, creating ideal conditions for safe landings.
 
-**Note**: At minute 20, the carrier will start its turn into the wind. Depending on weather and current carrier heading, the turn can take up to 5 minutes to complete.
+> **Note**: At minute 20, the carrier will start its turn into the wind. Depending on weather and current carrier heading, the turn can take up to 5 minutes to complete.
 
 ## Short Description of the Communication Flow (detailed instructions in **132-TTP-19**)
-```markdown
+
 ### Departure
 - Monitor Tower Freq (309.100) and do all radio calls on Tower until after the Departure, then switch to Marshall freq (309.200).  
   **Do NOT use the carrier AI Freq (309.500)**.
@@ -37,12 +37,12 @@ The sole purpose of the AI Frequency is to activate ACLS functionality, if pilot
 
 - **Stay on Marshall Freq from the time of Checkin until AFTER you announced 'Modex xxx, Commencing', THEN switch to Tower.**
 
-### CASE I:
+### CASE I
 - AFTER the Commence call (on Marshall), switch to Tower (309.100).  
   Your next call will be 'Modex xxx, Initials', then the Ball call.  
   Other pilots, do not transmit when another has called the Ball, until they report 'Green Deck'.
 
-### CASE III:
+### CASE III
 - If a human Marshall Controller is present, work with them.  
   If not, use the script (outline below) to add your Modex to the Marshall Queue.
 - Call 'Modex xxx, Established' when you enter your assigned holding.
@@ -51,12 +51,11 @@ The sole purpose of the AI Frequency is to activate ACLS functionality, if pilot
 - AFTER your Commence call, switch to Tower (309.100).  
   Your next call will be 'Modex xxx, Platform'. Make all further calls on Tower Freq unless you have to enter Marshalling again.
 
-**Note**: For ACLS functionality, in DCS, ACLS relies on checking in with the ED ATC.  
+> **Note**: For ACLS functionality, in DCS, ACLS relies on checking in with the ED ATC.  
 If you intend to use ACLS, use the ED ATC menu to make your call on AI Freq (309.500), but switch back to the correct frequency (Marshall or Tower) ASAP.  
 No calls are made on AI Freq, as this is not monitored by anyone.
-```
 
-### Recovery Tanker Support
+## Recovery Tanker Support
 
 A recovery tanker will be launched when the recovery window opens. Please leave room on the deck for the tanker to taxi to the catapult and allow the recovery tanker to launch as the first plane.  
 The tanker will remain airborne until the end of the recovery window, when it will return to base. There is a delay for the tanker to recover, so it should be the last plane to land.
@@ -82,7 +81,7 @@ F10 Menu other/
 This is an overview of the menu tree accessible to the pilots. Please note the carrier will reply or send information only to pilots currently within the Marshalling Area (50nm around the boat).  
 If you do not get a reply from the Carrier, get within the Marshall Area, then try again.
 
-# CVN-73 Carrier Information
+## CVN-73 Carrier Information
 
 Provides real-time updates on the carrier's current state:
 - Whether a cycle is open.
@@ -90,7 +89,7 @@ Provides real-time updates on the carrier's current state:
 - Information about the wind direction and wind speed over the deck.
 - Expected **Final Bearing (FB)** and **QNH** (pressure setting).
 
-**Note**: You will know when the carrier has finished its turn when the reported carrier heading equals the expected BRC as reported by the Carrier Information menu.
+> **Note**: You will know when the carrier has finished its turn when the reported carrier heading equals the expected BRC as reported by the Carrier Information menu.
 
 ## CVN-73 Admin
 
@@ -106,12 +105,12 @@ Provides real-time updates on the carrier's current state:
 
 - This is also for testing and problem-solving. This will kick everyone from the **CASE II/CASE III Marshall Stack** (see functionality described below).
 
-# CVN-73 CASE II/III Marshall
+## CVN-73 CASE II/III Marshall
 
 This functionality can be used when **CASE II/III Marshalling** is required and no controllers are present.  
 Pilots can add any **Modex** to the Marshall queue; those Modex numbers will then be stacked by the time of being added (first come, first serve).
 
-## Display the Marshall Stack
+### Display the Marshall Stack
 
 At any time, all players within the Marshall can request the current Marshall Stack information.  
 Here is an example output (Note: as with all Carrier functionality, this will be displayed only within the Marshall Area):
@@ -124,7 +123,7 @@ Tomcat 201, Marshall from Mother at 343/23, at Angels 8. Pushtime Minute 32.
 Hornet 302, Marshall from Mother at 343/24, at Angels 9. Pushtime Minute 33.
 ```
 
-# Panthers and Spectres Submenus
+## Panthers and Spectres Submenus
 
 Here, pilots can add/remove their (or anyone else's) Modex to/from the Marshall Stack.  
 If a number is removed, the stack will collapse and update accordingly.
