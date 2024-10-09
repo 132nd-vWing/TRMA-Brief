@@ -25,23 +25,36 @@ The sole purpose of the AI Frequency is to activate ACLS functionality, if pilot
 
 **Note**: At minute 20, the carrier will start its turn into the wind. Depending on weather and current carrier heading, the turn can take up to 5 minutes to complete.
 
-## Short Descriptopm of the Communication Flow (detailed instructions in **132-TTP-19**)
-# Departure
- -  Monitor Tower Freq (309.100) and do all radio calls on Tower until after the Departure, then switch to Marshall frew (309.200). Do NOT use the carrier AI Freq (309.500)
-# Recovery
- -  Before entering the Marshall Area, give a radio call to Marshall on 309.200 to check in (Do NOT use the AI Freq, do NOT use the ED ATC)  
+## Short Description of the Communication Flow (detailed instructions in **132-TTP-19**)
+```markdown
+### Departure
+- Monitor Tower Freq (309.100) and do all radio calls on Tower until after the Departure, then switch to Marshall freq (309.200).  
+  **Do NOT use the carrier AI Freq (309.500)**.
 
- -  ## CASE I: Stay on Marshall Freq from the time of Checkin until AFTER you announced 'Modex xxx, Commencing'
- -  AFTER the Commence call (on Marshall), switch to Tower (309.100), your next call will be 'Modex xxx, Initials', then the Ball call. Other pilots, do not transmit when another called the Ball, until they report 'Green Deck'
-   
- -  ## CASE III: If a human Marshall Controller is present, work with them. If not, use the script (outline below) to add your Modex to the Marshall Queue.
- -  Call 'Modex xxx, Established when you enter your assigned holding
- -  At your assigned Push Time, call 'Modex xxx, Commencing' on Marshall Freq. If you cannot meet your Push Time, announce it on Marshall so other pilots can adjust their timings accordingly, or leave the Marshall stack and re-enter to get a new hold and time assigned at the end of the queue
- -  AFTER your Commence call, switch to Tower (309.100), your next call will be 'Modex xxx, Platform'. Make all futher calls on Tower Freq unless you have to enter Marshalling again
+### Recovery
+- Before entering the Marshall Area, give a radio call to Marshall on 309.200 to check in.  
+  **Do NOT use the AI Freq, do NOT use the ED ATC**.  
 
-Note, for ACLS functionality, in DCS ACLS relies on checking in with the ED ATC. If you intend to use ACLS, use the ED ATC menu to make your call on AI Freq (309.500), but switch back to the correct frequency (Marshall or Tower) ASAP. 
+- **Stay on Marshall Freq from the time of Checkin until AFTER you announced 'Modex xxx, Commencing', THEN switch to Tower.**
+
+### CASE I:
+- AFTER the Commence call (on Marshall), switch to Tower (309.100).  
+  Your next call will be 'Modex xxx, Initials', then the Ball call.  
+  Other pilots, do not transmit when another has called the Ball, until they report 'Green Deck'.
+
+### CASE III:
+- If a human Marshall Controller is present, work with them.  
+  If not, use the script (outline below) to add your Modex to the Marshall Queue.
+- Call 'Modex xxx, Established' when you enter your assigned holding.
+- At your assigned Push Time, call 'Modex xxx, Commencing' on Marshall Freq.  
+  If you cannot meet your Push Time, announce it on Marshall so other pilots can adjust their timings accordingly, or leave the Marshall stack and re-enter to get a new hold and time assigned at the end of the queue.
+- AFTER your Commence call, switch to Tower (309.100).  
+  Your next call will be 'Modex xxx, Platform'. Make all further calls on Tower Freq unless you have to enter Marshalling again.
+
+**Note**: For ACLS functionality, in DCS, ACLS relies on checking in with the ED ATC.  
+If you intend to use ACLS, use the ED ATC menu to make your call on AI Freq (309.500), but switch back to the correct frequency (Marshall or Tower) ASAP.  
 No calls are made on AI Freq, as this is not monitored by anyone.
-
+```
 
 ### Recovery Tanker Support
 
