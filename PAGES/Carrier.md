@@ -12,6 +12,7 @@ For detailed descriptions of Special Operating Procedures during Carrier Operati
 - **Datalink**: 331 MHz, identifier "A73"
 - **ACLS**: Activated on 331 MHz, identifier "A73"
 - **Recovery Tanker Radio Frequency**: 142.5 MHz
+- **E2 Overlord**: 282.77 MHz
 - **Recovery Tanker TACAN**: Channel 64Y, identifier "SH1"
 - **Carrier AI Frequency**: 309.5 MHz
 
@@ -67,9 +68,12 @@ F10 Menu other/
 └── Carrier Control
     ├── CVN-73 Carrier Information
     ├── CVN-73 Admin
-    │   ├── Extend current recovery window by 5 Minutes
+    │   ├── Extend current recovery window by 5 Minutes (only if recovery is active)
     │   ├── Debug: Start Cycle Manually
-    │   └── Clear Marshall Queue
+    │   ├── Clear Marshall Queue
+    │   ├── Set Case I
+    │   ├── Set Case II
+    │   └── Set Case III
     ├── CVN-73 CASE II/III Marshall
     │   ├── Display the Marshall Stack
     │   ├── Panthers
@@ -104,6 +108,10 @@ Provides real-time updates on the carrier's current state:
 ### Clear Marshall Queue
 
 - This is also for testing and problem-solving. This will kick everyone from the **CASE II/CASE III Marshall Stack** (see functionality described below).
+
+### Set Case x
+
+- This can be used to configure the Carrier for a CASE I/II/III recovery, to update the expected/active CASE X recovery when Carrier Information is selected
 
 ## CVN-73 CASE II/III Marshall
 
