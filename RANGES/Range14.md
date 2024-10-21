@@ -7,6 +7,8 @@ In Rognan a friendly motorized infantry battalion is in defensive positions, as 
 
 In addition, a friendly motorized infantry company is in defensive positions at MOLDJORD, preparing to retreat further NORTH toward SALTSTRAUMEN and BODØ.
 
+Friendly FARP located at ROGNAN: FARP LONDON, freq 127.33
+
 ### Intelligence
 A enemy mechanized infantry brigade are on the offensive from the SOUTH. The brigade is attacking on two axis from ROKLAND and TRONES toward the NORTH.
 
