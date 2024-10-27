@@ -26,6 +26,8 @@ TO BE COMPLETED ONCE WE CREATE ADVANCED EXERCISE SCENARIOS
 ## Taskings 
 Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
 * [Strike+OCA Escort, range 23](/TRMA-Brief/TASKINGS/132nd Strike and OCA Escort v1.0 TRMA.pdf)
+* [EXERCISE RED THUNDER A: Strike+OCA Escort+SEAD (with human aggressor), range 23](/TRMA-Brief/TASKINGS/EX RED THUNDER A - Strike-SEAD-Escort and aggressors in range 23.pdf)
+* [EXERCISE RED THUNDER B: Strike+SEAD (without air threat), range 23](/TRMA-Brief/TASKINGS/EX RED THUNDER B - Strike and SEAD in range 23.pdf)
 
 
 ## RANGES
