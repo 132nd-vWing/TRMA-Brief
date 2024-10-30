@@ -74,6 +74,7 @@ F10 Menu other/
     │   ├── Set Case I
     │   ├── Set Case II
     │   └── Set Case III
+    │   └── Auto-set Carrier ATIS
     ├── CVN-73 CASE II/III Marshall
     │   ├── Display the Marshall Stack
     │   ├── Panthers
@@ -92,6 +93,7 @@ Provides real-time updates on the carrier's current state:
 - The heading of the carrier.
 - Information about the wind direction and wind speed over the deck.
 - Expected **Final Bearing (FB)** and **QNH** (pressure setting).
+- ATIS including QNH
 
 > **Note**: You will know when the carrier has finished its turn when the reported carrier heading equals the expected BRC as reported by the Carrier Information menu.
 
@@ -112,6 +114,10 @@ Provides real-time updates on the carrier's current state:
 ### Set Case x
 
 - This can be used to configure the Carrier for a CASE I/II/III recovery, to update the expected/active CASE X recovery when Carrier Information is selected
+
+### Auto-set Carrier ATIS
+
+- This can be used to configure the Carrier for a CASE I/II/III automatically dependeing on DCS weather. The weather infromation is not very reliable and you may still have to set the case via the manual menu 'Set Case X'.
 
 ## CVN-73 CASE II/III Marshall
 
