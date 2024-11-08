@@ -11,8 +11,7 @@ For detailed descriptions of Special Operating Procedures during Carrier Operati
 - **ICLS**: Channel 13, identifier "I73"
 - **Datalink**: 331 MHz, identifier "A73"
 - **ACLS**: Activated on 331 MHz, identifier "A73"
-- **Recovery Tanker Radio Frequency**: 142.5 MHz
-- **E2 Overlord**: 282.77 MHz
+- **Recovery Tanker Radio Frequency**: 282.5 MHz
 - **Recovery Tanker TACAN**: Channel 64Y, identifier "SH1"
 - **Carrier AI Frequency**: 309.5 MHz
 
