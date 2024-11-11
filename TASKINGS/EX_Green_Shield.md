@@ -2,30 +2,25 @@
 
 This is a advanced scenario exercise with focus on Air-to-Ground operations in preperation for attack against Socialist Republic of Notia (SRN) as part of Operation Arctic Thunder (OPAT).
 Scenario is a classic war scenario, BLUE vs RED. Enemy territory to the EAST, friendly territory to the WEST.
-The scenario uses range 22 and 23 airspace.
+The scenario uses range 23 airspace.
 
 ## Scenario overview
-1
 ![Exercise GREEN SHIELD scenario overview](/TRMA-Brief/GRAPHICS/EX_GREENSHIELD_OVERVIEW.png)
-2
-![Exercise GREEN SHIELD scenario overview](/TRMA-Brief/GRAPHICS/EX_GREENSHIELD_OVERVIEW.PNG)
-3
-![Exercise GREEN SHIELD scenario overview](GRAPHICS/EX_GREENSHIELD_OVERVIEW.png)
 
-BLUE is controlling the southern area, with RED controlling the area in the north..
-Combat operations is taking place on the FLOT between red and blue territory
 
 
 <br>
 <br>
 ## Training Objectives
 - Priority 1: AR (RW and A-10s) attacking HVT's while supported by SEAD/DEAD assets.
+- Priority 2: Sweep and Escort in support of AR and SEAD/DEAD
 <br>
 <br>
 ### Situation
 #### General situaton
 BLUE and RED have been building up forces. BLUE have initiated an assault within the last 24 hours against RED forces. Combat operatons is currently fairly static along
 the FLOT. JFACC have tasked friendly forces to attrit enemy high targets units before the BLUE forces commence a ground assault against the RED forces in this sector.
+Combat operations is taking place on the FLOT between red and blue territory.
 <br>
 <br>
 #### Friendly situation
