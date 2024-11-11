@@ -5,7 +5,12 @@ Scenario is a classic war scenario, BLUE vs RED. Enemy territory to the EAST, fr
 The scenario uses range 22 and 23 airspace.
 
 ## Scenario overview
-![Exercise GREEN SHIELD scenario overview](/GRAPHICS/EX_GREENSHIELD_OVERVIEW.png)
+1
+![Exercise GREEN SHIELD scenario overview](/TRMA-Brief/GRAPHICS/EX_GREENSHIELD_OVERVIEW.png)
+2
+![Exercise GREEN SHIELD scenario overview](/TRMA-Brief/GRAPHICS/EX_GREENSHIELD_OVERVIEW.PNG)
+3
+![Exercise GREEN SHIELD scenario overview](GRAPHICS/EX_GREENSHIELD_OVERVIEW.png)
 
 BLUE is controlling the southern area, with RED controlling the area in the north..
 Combat operations is taking place on the FLOT between red and blue territory
