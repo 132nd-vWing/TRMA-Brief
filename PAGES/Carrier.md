@@ -15,7 +15,7 @@ For detailed descriptions of Special Operating Procedures during Carrier Operati
 - **Recovery Tanker TACAN**: Channel 64Y, identifier "SH1"
 - **Carrier AI Frequency**: 309.5 MHz
 
-> **Note**: This frequency is NOT monitored, and no calls are made on this frequency. The sole purpose of the AI Frequency is to activate ACLS functionality if pilots choose to do so.
+> **Note**: Carrier AI Frequency is NOT monitored, and no calls are made on this frequency. The sole purpose of the AI Frequency is to activate ACLS functionality if pilots choose to do so.
 
 ## Cyclic Operations
 
