@@ -47,6 +47,58 @@ and know where they are. Enemy units are hidden from the F10 map and you need to
 - Range 15 is on the border to Bodø CTR. JTAC and/or flight need to ensure good deconfliction with Bodø ATC prior and during execution.
 - Flight are to maintain comms with Bodø ATC on Bodø Approach freq during all operations on range 15 (unless otherwise directed by Bodø ATC)
 
+<br>
+<br>
+<br>
+<br>
+
+
+# AR scenario (RW)
+Friendly territory are south of the range , and the entire range is considered enemy territory.
+
+**Friendlies:
+Friendly forces have been attacked by a overwhelming enemy force and have withdrawn to Bodø City.
+Friendly gorund forces have requested AR support to identify enemy force and reduce enemy capability before a friendly counteroffensive to retake village 1,2 and 3.
+
+**Enemy:
+Enemy force is a Mechanized Infantry Battalion Task Group (BTG), consisting of 2 companies of IFV, supported by 1 company of MBT. In the BTG there are also artillery and short range air defense.
+Enemy forces have likely taken control over village 1, 2 and 3.
+
+
+**Enemy most likely COA (ML COA):
+1x company forward, with a platoon in each village, supported by artillery and air defense from KJERRINGØY
+
+**Enemy most dangerous COA (MD COA):
+2x companies, including MBT occupying village 1, 2 and 3 and protected by shorad air defense. Artillery active IVO KJERRINGØY
+
+#### MISSION:
+Armed Reconnissance village 1,2 and 3 + terrain IVO KJERRINGØY.
+
+#### TASK:
+Task 1: Verify composition of enemy BTG.
+Task 2: Locate and neutralize  artillery
+Task 3: Locate and neutralize MBT company
+Task 4: Locate and neutralize 25% of IFVs
+
+**Target priority:
+1. Artillery
+2. MBT
+3. IFV
+
+
+**Time sensitive targets:
+1. SCUD
+2. Silkworm missile battery
+3. MLRS
+
+*If any time sensitive targets is encountered, targets should be neutralized as soon as possible.
+
+
+### ADMIN
+- AR scenario Armored Regiment need to be enabled using the F10 menu (Activate prior to takeoff from Bodø)
+- All locations refered in this brief is available in the TRMA CombatFlite file
+- Range 15 is on the border to Bodø CTR. Flights need to ensure good deconfliction with Bodø ATC prior and during execution. Announce on event page that range 15
+will be in use, and range 15 airspace from GND to FL150 is active due to live fire activity.
 
 
 
