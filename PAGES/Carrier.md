@@ -19,7 +19,7 @@ For detailed descriptions of Special Operating Procedures during Carrier Operati
 
 ## Cyclic Operations
 
-- **Timing**: CVN-73 opens a recovery window at **20 minutes past every hour (real time)**. For example, a recovery window would start at 14:20, 15:20, and so on.
+- **Timing**: CVN-73 opens a recovery window at **25 minutes past every hour (real time)**. For example, a recovery window would start at 14:25, 15:25, and so on.
 - **Duration**: Each recovery window remains open for **35 minutes**, providing a dedicated period for aircraft to land on the carrier.
 - During this time, the carrier will turn into the wind, creating ideal conditions for safe landings.
 
