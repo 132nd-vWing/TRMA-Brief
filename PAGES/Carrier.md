@@ -68,7 +68,7 @@ F10 Menu other/
     ├── CVN-73 Carrier Information
     ├── CVN-73 Admin
     │   ├── Extend current recovery window by 5 Minutes (only if recovery is active)
-    │   ├── Debug: Start Cycle Manually
+    │   ├── Qualification Day (opens a 90 min Cycle manually)
     │   ├── Clear Marshall Queue
     │   ├── Set Case I
     │   ├── Set Case II
