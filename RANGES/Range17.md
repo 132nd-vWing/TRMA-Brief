@@ -58,7 +58,7 @@ The Enemy has constructed a factory complex at the South of Range 17. This Facto
 N 68 37.100 E 014 27.620 at 16ft.
 TLE CAT III
 
-<img src="https://github.com/132nd-vWing/TRMA-Brief/blob/main/GRAPHICS/R17StrikeTarget.png" width="500" height="333">
+![Range 17 Strike Target](/GRAPHICS/R17StrikeTarget.png){: width="400px"}
 
 
 
