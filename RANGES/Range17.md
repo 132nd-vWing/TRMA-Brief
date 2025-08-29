@@ -54,9 +54,19 @@ Task 4: Locate and neutralize enemy brigade headquarter
 **Enemy:
 The Enemy has constructed a factory complex at the South of Range 17. This Factory Complex must be destroyed
 
+**Target Location
+N 68 37.100 E 014 27.620 at 16ft.
+TLE CAT III
+
+<img src="https://github.com/132nd-vWing/TRMA-Brief/blob/main/GRAPHICS/R17StrikeTarget.png" width="500" height="333">
+
+
+
 **Threats:
 none.
-Optional: via F10 Menu, some manpads and AA can be activated at the target area
+
+### ADMIN
+- Optional: via F10 Menu, some manpads and AA can be activated at the target area
 
 
 
