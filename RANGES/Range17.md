@@ -48,6 +48,18 @@ Task 4: Locate and neutralize enemy brigade headquarter
 - NOTE: If AR 305 is activated, its orbit will pass through eastern edge of range 17 at 5000ft. Coordinate with users planning to use the tanker.
 
 
+## STRIKE Scenario at Range 17
+#### SITUATION
+
+**Enemy:
+The Enemy has constructed a factory complex at the South of Range 17. This Factory Complex must be destroyed
+
+**Threats:
+none.
+Optional: via F10 Menu, some manpads and AA can be activated at the target area
+
+
+
 
 
 ## Back
