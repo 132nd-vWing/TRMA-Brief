@@ -75,6 +75,7 @@ and know where they are. Enemy units are hidden from the F10 map and you need to
    a.	RECON teams: x2 pairs of HMMWVs.<br />
    b.  Assault teams: x2 pairs of M1A2 ABRAMS and M2A2 BRADLEYs.<br />
    c.  Medical support: x2 pairs of STRYKERs.<br />
+   
 3) Convoy survivors: location not pinpointed but is likely to be WEST of the road bridge at N66 21.230 / E014 18.816 / 150ft.
    
 ### RESTRICTIONS
@@ -83,14 +84,15 @@ and know where they are. Enemy units are hidden from the F10 map and you need to
 ### ADMIN
 1)	All enemy units are set to engage only ground units. Training air-assets will not be targeted (To facilitate safety of training environment). However low-level flying assets could potentially face a small risk of damage due to ricochets from ground fires.<br />
 2)	JTAC options: The JTAC training may be done via one of several positions / perspectives:<br />
-  a.	OP with several MANPADs in overwatch at TBD <br />
+  a.	OP with several MANPADs in overwatch at N66 22.290 / E014 20.590 / elev 580ft <br />
   b.	A pair of scout HMMWVs parked alongside the TF and may be driven to any desired location and be used for observation / controlling. <br />
+  
 3)	Taskforce may be deployed in several ways depending on JTAC / GFC discretion and desired complexity of the training scenario:<br />
   a.	NONE AT ALL – Use only air power to clear the way for the RECON team to EXFIL based on their HMMWV.<br />
   b.	MANUALLY – The JTAC / JTAC and GFC would coordinate and employ the taskforce groups at their discretion.<br />
   c.	 AUTOMATIC DEPLOYMENT – To be added later. 
 
-### The following maps outline the initial state as well as the desired end-state of the scenario.
+#### The following maps outline the initial state as well as the desired end-state of the scenario. Open them in a new tab for full resolution.
 
 <img alt="image" src="https://github.com/user-attachments/assets/83e5d6a4-4784-4ff2-8c0c-9928919087a2" />
 
