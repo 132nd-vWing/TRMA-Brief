@@ -48,54 +48,53 @@ and know where they are. Enemy units are hidden from the F10 map and you need to
 ## RANGE-12 CAS SCENARIO-2
 
 ### GENERAL BACKGROUND
-1)	Friendly territory is to the SOUTHEAST. Insurgents'-held territory is to the NORTHWEST.
-2)	The MSR running roughly parallel to the border between STORFORSHEI and MO-I-RANA is critical for friendly resupply and troops movement.
-3)	Several hours ago, a friendly convoy consisting of several trucks and HMMWVs was ambushed Southwest of ROSSVOLL. One of the HMMWVs was able to go offroad and remain hidden in the trees. The occupants of that HMMWV were able to contact HQ and report the situation. As of now they are still stranded in the ambush site.
+1)	Friendly territory is to the SOUTHEAST. Insurgents'-held territory is to the NORTHWEST.<br />
+2)	The MSR running roughly parallel to the border between STORFORSHEI and MO-I-RANA is critical for friendly resupply and troops movement.<br />
+3)	Several hours ago, a friendly convoy consisting of several trucks and HMMWVs was ambushed Southwest of ROSSVOLL. One of the HMMWVs was able to go offroad and remain hidden in the trees. The occupants of that HMMWV were able to contact HQ and report the situation. As of now they are still stranded in the ambush site.<br />
 4)	INTL reported that the ambush is likely part of a larger-scale offensive executed by the insurgents and that the insurgents were able to cut off the MSR in both directions and are digging in in the area with intent to keep the MSR closed.
 
 ### GFC MISSION
-1)	Execute a counterattack to eliminate insurgents forces in the area
-2)	Set up a defensive line to prevent additional attacks by insurgents from the NORTH.
-3)	Retrieve survivors from the convoy (To be simulated by arriving at the survivors with the medical vehicles).
+1)	Execute a counterattack to eliminate insurgents forces in the area. <br />
+2)	Set up a defensive line to prevent additional attacks by insurgents from the NORTH. <br />
+3)	Retrieve survivors from the convoy (To be simulated by arriving at the survivors with the medical vehicles). <br />
    
 ### GFC INTENT FOR CAS
-1)	Destroy enemy units posing immediate threat to the convoy survivors OR to the friendly TF.
-2)	Locate and destroy enemy artillery.
-3)	Interdict enemy reinforcements.
+1)	Destroy enemy units posing immediate threat to the convoy survivors OR to the friendly TF.<br />
+2)	Locate and destroy enemy artillery.<br />
+3)	Interdict enemy reinforcements.<br />
 4)	Support GFC with amplifying enemy positions and movements.
    
 ### INTELLIGENCE
-1)	Enemy strength is estimated at company-sized force. Insurgents in that area are known to possess technicals as well as BMPs, BTRs and older-era MBTs.
-2)	Short range air defenses and light artillery are likely to support the enemy force in the area.
-3)	Additional reinforcements are to be expected coming from the NORTH, ETA unknown.
+1)	Enemy strength is estimated at company-sized force. Insurgents in that area are known to possess technicals as well as BMPs, BTRs and older-era MBTs.<br />
+2)	Short range air defenses and light artillery are likely to support the enemy force in the area.<br />
+3)	Additional reinforcements are to be expected coming from the NORTH, ETA unknown.<br />
    
 ### FRIENDLY DEPLOYMENT
-1)	JTAC position: N66 22.280 / E014 20.615 / 580ft. (Simulated by MANPADs)
-2)	TASK FORCE holding area: N66 23.370 / E014 23.580 / 315ft. TF consists of:
-   a.	RECON teams: x2 pairs of HMMWVs
-   b.  Assault teams: x2 pairs of M1A2 ABRAMS and M2A2 BRADLEYs
-   c.  Medical support: x2 pairs of STRYKERs
-
-4)	Convoy survivors: location not pinpointed but is likely to be WEST of the road bridge at N66 21.230 / E014 18.816 / 150ft.
+1)	JTAC position: N66 22.280 / E014 20.615 / 580ft. (Simulated by MANPADs).<br />
+2)	TASK FORCE holding area: N66 23.370 / E014 23.580 / 315ft. TF consists of:.<br />
+   a.	RECON teams: x2 pairs of HMMWVs.<br />
+   b.  Assault teams: x2 pairs of M1A2 ABRAMS and M2A2 BRADLEYs.<br />
+   c.  Medical support: x2 pairs of STRYKERs.<br />
+3) Convoy survivors: location not pinpointed but is likely to be WEST of the road bridge at N66 21.230 / E014 18.816 / 150ft.
    
 ### RESTRICTIONS
 1)	Avoid ANY damage to the two road bridges in the AO.
    
 ### ADMIN
-1)	All enemy units are set to engage only ground units. Training air-assets will not be targeted (To facilitate safety of training environment). However low-level flying assets could potentially face a small risk of damage due to ricochets from ground fires.
-2)	JTAC options: The JTAC training may be done via one of several positions / perspectives:
-  a.	OP with several MANPADs in overwatch at TBD 
-  b.	A pair of scout HMMWVs parked alongside the TF and may be driven to any desired location and be used for observation / controlling
-3)	Taskforce may be deployed in several ways depending on JTAC / GFC discretion and desired complexity of the training scenario:
-  a.	NONE AT ALL – Use only air power to clear the way for the RECON team to EXFIL based on their HMMWV
-  b.	MANUALLY – The JTAC / JTAC and GFC would coordinate and employ the taskforce groups at their discretion.
+1)	All enemy units are set to engage only ground units. Training air-assets will not be targeted (To facilitate safety of training environment). However low-level flying assets could potentially face a small risk of damage due to ricochets from ground fires.<br />
+2)	JTAC options: The JTAC training may be done via one of several positions / perspectives:<br />
+  a.	OP with several MANPADs in overwatch at TBD <br />
+  b.	A pair of scout HMMWVs parked alongside the TF and may be driven to any desired location and be used for observation / controlling. <br />
+3)	Taskforce may be deployed in several ways depending on JTAC / GFC discretion and desired complexity of the training scenario:<br />
+  a.	NONE AT ALL – Use only air power to clear the way for the RECON team to EXFIL based on their HMMWV.<br />
+  b.	MANUALLY – The JTAC / JTAC and GFC would coordinate and employ the taskforce groups at their discretion.<br />
   c.	 AUTOMATIC DEPLOYMENT – To be added later. 
 
-### The following maps outline the initial state as well as the desired end-state of the scenario
+### The following maps outline the initial state as well as the desired end-state of the scenario.
 
-<img width="2500" height="1447" alt="image" src="https://github.com/user-attachments/assets/83e5d6a4-4784-4ff2-8c0c-9928919087a2" />
+<img alt="image" src="https://github.com/user-attachments/assets/83e5d6a4-4784-4ff2-8c0c-9928919087a2" />
 
-<img width="2500" height="1447" alt="image" src="https://github.com/user-attachments/assets/45ec66ce-f741-4098-b210-7c05cb673067" />
+<img alt="image" src="https://github.com/user-attachments/assets/45ec66ce-f741-4098-b210-7c05cb673067" />
 
 
 
