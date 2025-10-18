@@ -49,34 +49,35 @@ Tasks:
 A critical MSR is running East-West via a T-junction about 8km South of MISVAER. Enemy has been using this MSR to move reinforcements and supplies around the area.
 
 ### GFC MISSION
-Advance SOUTH from the LD and seize the T-junction area by positioning units from BLUE task force as follows:
-•	A mechanized platoon at OBJECTIVE ALPHA, deployed to attack enemy forces arriving from the SOUTH-WEST.
-•	A mechanized platoon at OBJECTIVE BRAVO, deployed to attack enemy forces arriving from the SOUTH-EAST
+Advance SOUTH from the LD and seize the T-junction area by positioning units from BLUE task force as follows:<br />
+•	A mechanized platoon at OBJECTIVE ALPHA, deployed to attack enemy forces arriving from the SOUTH-WEST.<br />
+•	A mechanized platoon at OBJECTIVE BRAVO, deployed to attack enemy forces arriving from the SOUTH-EAST.<br />
 The above end-state is aimed at denying the enemy of moving combat units and supplies EAST and WEST in the area.
 
 ### INTELLIGENCE
-1)	Enemy force is estimated at 1x mechanized company + 1x armored platoon. Supporting assets are short-range air defenses, artillery and RECON.
-2)	Enemy QRF (Quick Reaction Force) is presumed to be on alert in the region to reinforce local defenses as needed. QRF composition is estimated as an additional mech/armored company.
-3)	Enemy has established a defensive line about 5km south of MISVAER blocking our advance to the SOUTH.
+1)	Enemy force is estimated at 1x mechanized company + 1x armored platoon. Supporting assets are short-range air defenses, artillery and RECON.<br />
+2)	Enemy QRF (Quick Reaction Force) is presumed to be on alert in the region to reinforce local defenses as needed. QRF composition is estimated as an additional mech/armored company.<br />
+3)	Enemy has established a defensive line about 5km south of MISVAER blocking our advance to the SOUTH.<br />
 
 ### FRIENDLY DEPLOYMENT
-•	JTAC position N67 04.82 / E015 00.44 / 830ft (Several MANPAD units)
-•	Taskforce line of departure (LD): N67 05.290 E014 58.920. A pair of STRYKERs are in a defensive position with the rest of the TF standing by on the road slightly North of them.
-•	TF composition:
-o	2x pairs of HMMWV vehicles for RECON
-o	3x mechanized platoons, each consisting of (2x) STRYKER ICVs and (1x) ATGM STRYKER
+•	JTAC position N67 04.82 / E015 00.44 / 830ft (Several MANPAD units). <br />
+•	Taskforce line of departure (LD): N67 05.290 E014 58.920. A pair of STRYKERs are in a defensive position with the rest of the TF standing by on the road slightly North of them.<br />
+•	TF composition:<br />
+o	2x pairs of HMMWV vehicles for RECON<br />
+o	3x mechanized platoons, each consisting of (2x) STRYKER ICVs and (1x) ATGM STRYKER<br />
 •	Artillery position (3x mortars) at N67 06.3 / E015 00.1 (North of the TF)
 
 ### ADMIN
-1)	All enemy units are set to engage only ground units. Training air-assets will not be targeted (To facilitate safety of training environment). However low-level flying assets could potentially face a small risk of damage due to ricochets from ground fires.
-2)	JTAC options: The JTAC training may be done via one of several positions / perspectives:
-  a.	OP with several MANPADs in overwatch at N67 04.82 / E015 00.44 / 830ft
-  b.	Two pairs of scout HMMWVs parked alongside the TF and may be driven to any desired location and be used for observation / controlling
+1)	All enemy units are set to engage only ground units. Training air-assets will not be targeted (To facilitate safety of training environment). However low-level flying assets could potentially face a small risk of damage due to ricochets from ground fires.<br />
+2)	JTAC options: The JTAC training may be done via one of several positions / perspectives:<br />
+  a.	OP with several MANPADs in overwatch at N67 04.82 / E015 00.44 / 830ft<br />
+  b.	Two pairs of scout HMMWVs parked alongside the TF and may be driven to any desired location and be used for observation / controlling.<br />
 
-3)	BLUE task force groups are moved manually (By the JTAC or a GFC).
-4)	BLUE units are set to HOLD FIRE (May be changed in-game as needed)
+3)	BLUE task force groups are moved manually (By the JTAC or a GFC).<br />
+4)	BLUE units are set to HOLD FIRE (May be changed in-game as needed).
 
-<img width="1800" height="2544" alt="image" src="https://github.com/user-attachments/assets/c28aebf3-267a-4e07-912f-9e7b82d8d64f" />
+#### Open the map in a new tab for full resolution.
+<img alt="image" src="https://github.com/user-attachments/assets/c28aebf3-267a-4e07-912f-9e7b82d8d64f" />
 
 
 
