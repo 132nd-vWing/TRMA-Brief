@@ -5,16 +5,17 @@ The Air to Air training system provides both BFM and BVR training drones. The dr
 
 ## Drone units
 The system currently includes: 
-MIG23MLD (APU602M, R24R)
-MIG25PD (R40TD, R40RD)
-MIG29A (R60M, R763, R27R)
-MIG31 (R73, R77, R29ER)
-SU27 (R73, R27ET, R27ER)
-SU30 (R73, R77, R27ER)
-J11A (R73, R27ER, R77)
-JF17 (PL-5EII, SD10-A)
+- **MIG23MLD** (*APU602M*\*, R24R)
+- MIG25PD (*R40TD*, R40RD)
+- **MIG29A** (*R60M*, R73, R27R)
+- MIG31 (*R73*, R77, R29ER)
+- SU27 (*R73*, R27ET, R27ER)
+- **SU30** (*R73*, R77, R27ER)
+- J11A (*R73*, R27ER, R77)
+- **JF17** (*PL-5EII*, SD10-A)
 
-BFM loadouts are simply IR forward.
+\* BFM loadouts are simply IR forward shown in italics.
+\*\* Default Groups are in bold face.
 
 ## Control
 Use the range 33 drone system as follows: 
