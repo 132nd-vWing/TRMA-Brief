@@ -29,9 +29,57 @@ The range have a rocket artillery BN protected by army IADS. The rocket artiller
 - All SAMs need to be activated and decativated using the F10 menu.
 - Rocket artillery BNs as targets for mobile SAMs will activate when you active the dedicated SAM system.
 
+-------------------------------------------------------------
+ ## ARMED RECONNAISSANCE   
+#### SITUATION
+**Friendlies:
+BLUELAND in the NORTH have been invaded by REDLAND in the SOUTH.
+Friendly forces consisting of two companies from a mechanized infantry battalion and are located in defensive positions protecting HEMAVAN airstrip and FOB. 
+Friendly forces have established a FLOT about 2nm SOUTH of the airstrip with a platoon of IFV's.
+Friendly forces are in defensive positions awaiting resupply  by logistical flights from Bodø.
+Friendly forces have forward observers operating in the high ground supporting the defensive effort (JTAC North and JTAC South locations).
+
+**Enemy:
+Main enemy forces and REDLAND is located further SOUTH and EAST. REDLAND is on an offensive toward the NORTH to seize control of BLUELAND.
+Enemy force are a armor brigade (intelligence from 24 hours ago). 
+It is an intelligence gap if the enemy armored brigade have been reinforces with Corps or Division assets. 
+
+**Enemy most likely COA (ML COA):
+Offensive on one road axis toward HEMAVAN with one armored company at the time. Enemy air defence assets protecting artillery and high value assets in the rear area.
+
+**Enemy most dangerous COA (MD COA):
+Offensive on two road axis toward HEMAVAN simultaneous. Enemy air defence assets protecting the frontline assault while also covering artillery and high value assets in the rear area.
+
+#### MISSION:
+Armed Reconnissance between FLOT and SOUTH.
+
+#### TASK:
+Task 1: Detect and identify if Brigade is following ML COA or MD COA
+Task 2: Neutralize enemy artillery 
+Task 3: Neutralize any moving main battle tanks before they reach the FLOT
+Task 4: Locate and neutralize static main battle tanks
+
+**Target priority:
+1. Artillery
+2. Any headquarter
+3. Main Battle Tanks
+4. IFVs
+
+**Time sensitive targets:
+1. SCUD
+2. Silkworm missile battery
+3. MLRS
+
+*If any time sensitive targets is encountered, targets should be neutralized as soon as possible.
+
+
+### ADMIN
+- AR scenario Armored Regiment need to be enabled using the F10 menu (Activate as the flight enter the range airspace from NORTH)
+- All locations refered in this brief is available in the TRMA CombatFlite file
 
 
 
-
+### Locations
+![Locations](/TRMA-Brief/GRAPHICS/R24_AR_Scenario.PNG)
 ## Back
 [Back to frontpage](https://132nd-vwing.github.io/TRMA-Brief/)
