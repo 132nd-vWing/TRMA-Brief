@@ -30,7 +30,8 @@ The range have a rocket artillery BN protected by army IADS. The rocket artiller
 - Rocket artillery BNs as targets for mobile SAMs will activate when you active the dedicated SAM system.
 
 -------------------------------------------------------------
- ## ARMED RECONNAISSANCE   
+
+## ARMED RECONNAISSANCE   
 #### SITUATION
 **Friendlies:
 BLUELAND in the NORTH have been invaded by REDLAND in the SOUTH.
@@ -80,6 +81,8 @@ Task 4: Locate and neutralize static main battle tanks
 
 
 ### Locations
-![Locations](/TRMA-Brief/GRAPHICS/R24_AR_Scenario.PNG)
+![Locations](/TRMA-Brief/GRAPHICS/R24_AR_Scenario.png)
+
+
 ## Back
 [Back to frontpage](https://132nd-vwing.github.io/TRMA-Brief/)
