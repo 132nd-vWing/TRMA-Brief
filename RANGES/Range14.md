@@ -57,46 +57,46 @@ Tasks:
 ## Range-14. CAS Scenario-1
 
 ### GENERAL BACKGROUND:
-1)	Enemy insurgents have been using the town of ROGNAN as a resupply hub for their forces further South.
-2)	ROGNAN is under enemy control with friendly side to the WEST, FLOT is along the ridgeline WEST of the valley.
-3)	Friendly RECON has been on station in a house in ROGNAN to monitor enemy movements and communications.
-4)	A few hours ago, the enemy activity in and around ROGNAN increased with SIGINT indicating that the enemy is alerted to the presence of a recon team in the town.
-5)	RECON team is at risk of being overrun and its EXFIL routes are shut off.
+1)	Enemy insurgents have been using the town of ROGNAN as a resupply hub for their forces further South.<br />
+2)	ROGNAN is under enemy control with friendly side to the WEST, FLOT is along the ridgeline WEST of the valley.<br />
+3)	Friendly RECON has been on station in a house in ROGNAN to monitor enemy movements and communications.<br />
+4)	A few hours ago, the enemy activity in and around ROGNAN increased with SIGINT indicating that the enemy is alerted to the presence of a recon team in the town.<br />
+5)	RECON team is at risk of being overrun and its EXFIL routes are shut off.<br />
 
 ### GFC MISSION
 1)	GFC will command a friendly taskforce into the town to secure and extract the RECON.
 
 ### INTELLIGENCE
-1)	The enemy has blocked all routes out of the town with static roadblocks and anti-vehicle ATGM teams. Mobile patrols are active in and around the town.
-2)	Enemy strength IVO ROGNAN is estimated at 1+ company of IFVs, APCs, technical and short-range air defenses.
+1)	The enemy has blocked all routes out of the town with static roadblocks and anti-vehicle ATGM teams. Mobile patrols are active in and around the town.<br />
+2)	Enemy strength IVO ROGNAN is estimated at 1+ company of IFVs, APCs, technical and short-range air defenses.<br />
 3)	Additional enemy reinforcements are expected to arrive from the SOUTH in the coming hours. These reinforcements may include armored elements as well.
 
 ### FRIENDLY DEPLOYMENT
-1)	JTAC position: N67 04.870 / E015 20.300 / 830ft
-2)	RECON TEAM: N67 05.100 / E015 22.600 / 18ft /Simulated by a few MANPADs and a HMMWV near a house)
-3)	Taskforce consisting of western-type MBTs, IFVs line of departure (LD): N67 03.000 / E015 17.400 / 840ft
+1)	JTAC position: N67 04.870 / E015 20.300 / 830ft. <br />
+2)	RECON TEAM: N67 05.100 / E015 22.600 / 18ft /Simulated by a few MANPADs and a HMMWV near a house). <br />
+3)	Taskforce consisting of western-type MBTs, IFVs line of departure (LD): N67 03.000 / E015 17.400 / 840ft. <br />
 
 ### ADMIN
 1)	All enemy units are set to engage only ground units. Training air-assets will not be targeted (To facilitate safety of training environment). However low-level flying assets could potentially face a small risk of damage due to ricochets from ground fires.
    
-2)	JTAC options: The JTAC training may be done via one of several positions / perspectives:
-a.	OP with several MANPADs in overwatch at N67 04.870 / E015 20.300 / 830ft
-b.	A pair of scout HMMWVs parked alongside the TF and may be driven to any desired location and be used for observation / controlling
-c.	MANPADs and HMMWV in the RECON hiding position.
+2)	JTAC options: The JTAC training may be done via one of several positions / perspectives: <br />
+a.	OP with several MANPADs in overwatch at N67 04.870 / E015 20.300 / 830ft. <br />
+b.	A pair of scout HMMWVs parked alongside the TF and may be driven to any desired location and be used for observation / controlling. <br />
+c.	MANPADs and HMMWV in the RECON hiding position.<br />
 
-4)	Taskforce may be deployed in several ways depending on JTAC / GFC discretion and desired complexity of the training scenario:
+4)	Taskforce may be deployed in several ways depending on JTAC / GFC discretion and desired complexity of the training scenario: <br />
    
-a.	NONE AT ALL – Use only air power to clear the way for the RECON team to EXFIL based on their HMMWV.
-b.	MANUALLY – The JTAC / JTAC and GFC would coordinate and employ the taskforce groups at their discretion.
-c.	 AUTOMATIC DEPLOYMENT – "At the flip of the switch" the taskforce would deploy to assume positions to cover the entry/exit routes, clearing the JTAC to focus on CAS missions. To use this, drive the M113 named " R14_CAS1-BLUE-SWITCH-TRIGGER" and place it closer to the bunker on the road just East of it. This function would deploy the TF as follows:
-i.	1xMBT + 1xIFV to take a defensive position on the South side of the town covering to the South
-ii.	2x IFVs taking positions in the Center of the town covering to the North-East
-iii.	2x IFVs advancing to the RECON position and assuming a defensive position there.
+a.	NONE AT ALL – Use only air power to clear the way for the RECON team to EXFIL based on their HMMWV. <br />
+b.	MANUALLY – The JTAC / JTAC and GFC would coordinate and employ the taskforce groups at their discretion. <br />
+c.	 AUTOMATIC DEPLOYMENT – "At the flip of the switch" the taskforce would deploy to assume positions to cover the entry/exit routes, clearing the JTAC to focus on CAS missions. To use this, drive the M113 named " R14_CAS1-BLUE-SWITCH-TRIGGER" and place it closer to the bunker on the road just East of it. This function would deploy the TF as follows:<br />
+i.	1xMBT + 1xIFV to take a defensive position on the South side of the town covering to the South. <br />
+ii.	2x IFVs taking positions in the Center of the town covering to the North-East. <br />
+iii.	2x IFVs advancing to the RECON position and assuming a defensive position there.<br />
 
-<img width="1165" height="1562" alt="image" src="https://github.com/user-attachments/assets/4d4ab812-9009-4dc0-9577-024e3dc15637" />
+<img alt="image" src="https://github.com/user-attachments/assets/4d4ab812-9009-4dc0-9577-024e3dc15637" />
 
 How to activate the autonomous maneuvering of the friendly taskforce:
-<img width="1074" height="487" alt="image" src="https://github.com/user-attachments/assets/a4c21e33-963f-453a-a360-90d95d5c47e2" />
+<img alt="image" src="https://github.com/user-attachments/assets/a4c21e33-963f-453a-a360-90d95d5c47e2" />
 
 
 ## Back
