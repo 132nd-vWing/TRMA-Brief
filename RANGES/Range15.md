@@ -52,6 +52,62 @@ and know where they are. Enemy units are hidden from the F10 map and you need to
 <br>
 <br>
 
+# Tactical Close Air Support (CAS) scenario-2
+
+### GENERAL BACKGROUND:
+1)	The mission takes place within insurgents-held territory.<br />
+2)	Insurgents have set up a command post in building in the village<br />
+3)	A friendly SOF team is set to enter the CP, grab high value intelligence items and egress.<br />
+
+### INTELLIGENCE:
+4)	Insurgents have based a garrison force in the village and surrounding villages based on pickup trucks armed with heavy machineguns and stolen military equipment based on Eastern-bloc equipment.<br />
+5)	A roadblock defends the village access road South of the village, approx. 2km away.<br />
+6)	Enemy is known to possess SHORAD air-defenses in the sector. Such ADS are likely to be present IVO the village.<br />
+7)	Arial photo of the village and the CP location:<br />
+ <img alt="image" src="https://github.com/user-attachments/assets/6d5d12f7-d9a8-430e-b24f-ad71c6740546" />
+ 
+### GFC MISSION
+1)	Conduct the approach to the CP in one of two ways (Based on the desired CAS training topics) :<br />
+  a.	Option 1: A SOF team will advance into the village on foot from the WEST. <br />
+Or:
+  b.	Option 2: A SOF team will use a pair of STRYKER IFVs placed on a road a few km to the SOUTHWEST, and advance into the village.<br />
+2)	Whichever SOF being used, will need to be brought close to the CP building at N67 26.060 / E014 46.400 / Elev.126ft .<br />
+
+### GFC INTENT FOR CAS
+1)	Shape conditions for a safe approach and egress by the SOF team by eliminating enemy combatants in the area.<br />
+2)	Targets and priorities:<br />
+   a.	100% of MBTs, IFVs and APCs in the AO.<br />
+   b.	75% of armed pickup trucks in the AO.<br />
+   c.	75% of dismounted infantry in the AO.<br />
+3)	Provide close support to the SOF throughout the operation by isolating the AO from adjacent enemy forces.<br />
+
+### FRIENDLY DEPLOYMENT
+1)	JTAC position: N67 26.050 / E014 14.430 / 87ft / About 1000m West of the village.<br />
+2)	SOF team starting position (Infantry): Collocated the JTAC position.<br />
+3)	SOF team starting position (APCs): N67 24 .420 / E014 41.520 / 105ft / On the access road to the village, about 2.5km to the SW.<br />
+
+### RESTRICTIONS
+1)	Minimize collateral damage. Noncombatants are still present in the village.<br />
+2)	Within 100m from the village perimeter, only the following ordnance types are approved:<br />
+   a.	Forward-firing, AP warheads. <br />
+   b.	50cal rounds or smaller. <br />
+3)	Further out, the use of warheads up to 500lb HE is approved.<br />
+4)	Cluster munitions are prohibited.<br />
+ 
+
+
+### ADMIN
+1)	All enemy units are set to engage only ground units. Training air-assets will not be targeted (To facilitate safety of training environment). However low-level flying assets could potentially face a small risk of damage due to ricochets from ground fires. <br />
+2)	All control of the SOF teams is by the JTAC / GFC. <br />
+3)	For simplicity, SOF arrival close to the objective CP counts as a successful ingress. SOF withdrawal back to its starting point counts as a successful EXFIL. <br />
+4)	As soon as ANY of the two SOF choices starts moving towards the village, the OTHER SOF will shortly thereafter deactivate and disappear to prevent confusion. <br />
+5)	Communications: based on Range-15 frequencies. <br />
+6)	Range-15 is near the TMA, ensure air assets are deconflicted: either within R15 airspace or above FL195 if extending to the SOUTH towards BODO. <br />
+
+<br>
+<br>
+<br>
+<br>
 
 # AR scenario (RW)
 Friendly territory are south of the range , and the entire range is considered enemy territory.
