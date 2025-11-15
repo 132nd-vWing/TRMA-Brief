@@ -60,10 +60,10 @@ and know where they are. Enemy units are hidden from the F10 map and you need to
 3)	A friendly SOF team is set to enter the CP, grab high value intelligence items and egress.<br />
 
 ### INTELLIGENCE:
-4)	Insurgents have based a garrison force in the village and surrounding villages based on pickup trucks armed with heavy machineguns and stolen military equipment based on Eastern-bloc equipment.<br />
-5)	A roadblock defends the village access road South of the village, approx. 2km away.<br />
-6)	Enemy is known to possess SHORAD air-defenses in the sector. Such ADS are likely to be present IVO the village.<br />
-7)	Arial photo of the village and the CP location:<br />
+1)	Insurgents have based a garrison force in the village and surrounding villages based on pickup trucks armed with heavy machineguns and stolen military equipment based on Eastern-bloc equipment.<br />
+2)	A roadblock defends the village access road South of the village, approx. 2km away.<br />
+3)	Enemy is known to possess SHORAD air-defenses in the sector. Such ADS are likely to be present IVO the village.<br />
+4)	Arial photo of the village and the CP location:<br />
  <img alt="image" src="https://github.com/user-attachments/assets/6d5d12f7-d9a8-430e-b24f-ad71c6740546" />
  
 ### GFC MISSION
