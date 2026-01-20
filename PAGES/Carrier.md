@@ -2,8 +2,10 @@
 # TRMA CVN-73 Carrier Control George Washington
 
 Welcome to the CVN-73 carrier operations! This guide explains how the carrier operates automatically and how you, as a pilot, can interact with it during recovery operations.  
-Please note, all timings referenced here are in **real time**, not game time, meaning that they correspond to the actual time of the server PC hosting the mission.  
+Please note, all timings referenced here are in **real time UTC**, not game time, meaning that they correspond to the actual time of the server PC hosting the mission.  
 For detailed descriptions of Special Operating Procedures during Carrier Operations within the 132nd Virtual Wing, please refer to **132-TTP-19**.
+
+Script update 3.7 in beta. 
 
 ## Navigation and Communication Information
 
@@ -18,12 +20,13 @@ For detailed descriptions of Special Operating Procedures during Carrier Operati
 > **Note**: Carrier AI Frequency is NOT monitored, and no calls are made on this frequency. The sole purpose of the AI Frequency is to activate ACLS functionality if pilots choose to do so.
 
 ## Cyclic Operations
+Cyclic operations refers to the cyclic launch, recovery and positioning of the carrier, where possible we try to emulate reality as close as possible. 
 
-- **Timing**: CVN-73 opens a recovery window at **25 minutes past every hour (real time)**. For example, a recovery window would start at 14:25, 15:25, and so on.
-- **Duration**: Each recovery window remains open for **30 minutes**, providing a dedicated period for aircraft to land on the carrier.
-- During this time, the carrier will turn into the wind, creating ideal conditions for safe landings.
-
-> **Note**: At minute 20, the carrier will start its turn into the wind. Depending on weather and current carrier heading, the turn can take up to 5 minutes to complete.
+- **Timing (minute past the hour)**: 
+- 20 - cycle start, carrier turns into wind and configured for launch. 
+- 30 - window opens, carrier configured for recovery. 
+- 55 - window closes.  
+- 57 - cycle ends, carrier configured for cruise and turns downwind. 
 
 ## Short Description of the Communication Flow (detailed instructions in **132-TTP-19**)
 
@@ -57,71 +60,85 @@ No calls are made on AI Freq, as this is not monitored by anyone.
 
 ## Recovery Tanker Support
 
-A recovery tanker will be launched when the recovery window opens. Please leave room on the deck for the tanker to taxi to the catapult and allow the recovery tanker to launch as the first plane.  
-The tanker will remain airborne until the end of the recovery window, when it will return to base. There is a delay for the tanker to recover, so it should be the last plane to land.
+A recovery tanker will be launched when the recovery window opens. This will air launch to avoid deck crew conflict. The training tanker will remain indefinately. It can be disabled/enabled in the admin menu. 
 
 ## Player Menu Options to interact with the Carrier
-
 ```markdown
 F10 Menu other/
 └── Carrier Control
-    ├── CVN-73 Carrier Information
-    ├── CVN-73 Admin
-    │   ├── Extend current recovery window by 5 Minutes (only if recovery is active)
-    │   ├── Qualification Day (opens a 90 min Cycle manually)
-    │   ├── Clear Marshall Queue
-    │   ├── Set Case I
-    │   ├── Set Case II
-    │   └── Set Case III
-    │   └── Auto-set Carrier ATIS
-    ├── CVN-73 CASE II/III Marshall
-    │   ├── Display the Marshall Stack
+    ├── Carrier Information
+    ├── Carrier Admin
+    │   ├── Start Recovery Cycle NOW (DEBUG) 
+    │   ├── Start CQ 90m Cycle NOW
+    │   ├── Extend current cycle 5m
+    │   ├── Start/Stop Recovery Tanker
+    │   ├── Show Marshal Stack
+    │   └── Set Carrier Lights
+    │       └── [ OFF / NAV / LAUNCH / RECOVER ]
+    ├── Marshal Options
     │   ├── Panthers
-    │   │   └── [Contains options for adding/removing flights 300-326]
+    │   │   └── [Contains options for adding/removing/updating flights 300-339]
     │   └── Spectres
-    │       └── [Contains options for adding/removing flights 200-226]
+    │       └── [Contains options for adding/removing/updating flights 200-229]
 ```
 
 This is an overview of the menu tree accessible to the pilots. Please note the carrier will reply or send information only to pilots currently within the Marshalling Area (50nm around the boat).  
 If you do not get a reply from the Carrier, get within the Marshall Area, then try again.
 
-## CVN-73 Carrier Information
+## Carrier Information
 
 Provides real-time updates on the carrier's current state:
 - Whether a cycle is open.
 - The heading of the carrier.
 - Information about the wind direction and wind speed over the deck.
 - Expected **Final Bearing (FB)** and **QNH** (pressure setting).
-- ATIS including QNH
 
-> **Note**: You will know when the carrier has finished its turn when the reported carrier heading equals the expected BRC as reported by the Carrier Information menu.
+## Carrier Admin Menu
 
-## CVN-73 Admin
+### Manual Starts
+the 90 minute CQ training window will start when the menu is selected, it will update Carrier Information accordingly. The 30 minute DEBUG option will be removed. Extended cycles cannot be extended more.
 
-- **Extend current recovery window by 5 Minutes**: This option will only appear when a cycle is open. You can delay the time before the carrier ends the cycle by 5 minutes when you activate this functionality.  
-  This can be called multiple times if required. The new window end time will be updated accordingly and can be retrieved by the CVN-73 Carrier Information function.
+### Extend Cycle
+This option will only appear when a cycle is open. You can delay the time before the carrier ends the cycle by 5 minutes when you activate this functionality. This can be called multiple times if required. The new window end time will be updated accordingly and can be retrieved by the CVN-73 Carrier Information function.
 
-### Debug: Start Cycle Manually
-
-- This is for testing and own training only, not to be used in 132nd Training events unless allowed by the event host.  
-  This will make the carrier turn immediately and open a new cycle with the standard duration.
+### Recovery Tanker
+This starts and stops the airspawn recovery tanker. 
 
 ### Clear Marshall Queue
+This is also for testing and problem-solving. This will kick everyone from the **CASE II/CASE III Marshall Stack** (see functionality described below).
 
-- This is also for testing and problem-solving. This will kick everyone from the **CASE II/CASE III Marshall Stack** (see functionality described below).
+### Carrier Lights
+You can control the carrier lights with these options. 
+- OFF - no lights. It is safest to always use OFF before another state, with 20-30 second delay between. 
+- NAV - ships navigation lights. The deck is dark.
+- LAUNCH - bow and waist flood lights and taxi lights. The deck is bright. 
+- RECOVER - deck lights, taxi and navigation lights only, minimal floods. 
+(note ALWAYS USE OFF AFTER RECOVERY, failure to do this will result in the IFLOLS being disabled permanently)
 
-### Set Case x
-
-- This can be used to configure the Carrier for a CASE I/II/III recovery, to update the expected/active CASE X recovery when Carrier Information is selected
-
-### Auto-set Carrier ATIS
-
-- This can be used to configure the Carrier for a CASE I/II/III automatically dependeing on DCS weather. The weather infromation is not very reliable and you may still have to set the case via the manual menu 'Set Case X'.
-
-## CVN-73 CASE II/III Marshall
-
+## Marshall Options
 This functionality can be used when **CASE II/III Marshalling** is required and no controllers are present.  
-Pilots can add any **Modex** to the Marshall queue; those Modex numbers will then be stacked by the time of being added (first come, first serve).
+Pilots can add any **Modex** to the Marshall queue; those Modex numbers will then be stacked by the time of being added (first come, first serve)
+
+### The Marshal Stack
+- Radials are offset from final bearing reciprocal. 0, +/-15 +/-30 
+- Each radial has 4 slots 6/21, 7/22, 8/23, 9/24. 
+- Your slots remains static. 
+- Your slot is auto cleared 3 minutes after approach, unless you request an update.
+
+### Approach Time
+- Approach times are allocated from the possible window ( > open-5 < close-7). 
+- On request approach times will always be at least 3 minutes in the future, to allow for positioning. 
+- Therefore the latest queue entry is minute 45 (close-7 +3)
+- it might be that your approach is denied due to insufficient time. I suggest you tank and get comfortable. 
+
+### Join / Leave 
+Adds or removes the modex from the marshal queue and notifies you of your instructions. 
+
+### Show 
+Will show your marshal instruction again. 
+
+### Update time
+Will assign you a new approach time. It will be a minimum of 3m from now. 
 
 ### Display the Marshall Stack
 
@@ -135,11 +152,12 @@ Hornet 311, Marshall from Mother at 343/22, at Angels 7. Pushtime Minute 31.
 Tomcat 201, Marshall from Mother at 343/23, at Angels 8. Pushtime Minute 32.
 Hornet 302, Marshall from Mother at 343/24, at Angels 9. Pushtime Minute 33.
 ```
+Note the DCS limits the number of lines visible, and to avoid generating load, only the soonest 9 approaches will be show. 
 
 ## Panthers and Spectres Submenus
 
-Here, pilots can add/remove their (or anyone else's) Modex to/from the Marshall Stack.  
-If a number is removed, the stack will collapse and update accordingly.
+Here, pilots can add/remove/show/update their (or anyone else's) Modex to/from the Marshall Stack.  
+The stack does not collapse. 
 
 ## Back
 
