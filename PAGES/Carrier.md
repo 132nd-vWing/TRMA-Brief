@@ -42,23 +42,24 @@
 
 **Recovery Window (minute past the hour)**  
 - The carrier will be upwind and on course from window open to window close. 
-  - 30 - window opens, carrier configured for recovery. Broadcasted to CCA at minute 20. 
-  - 55 - window closes. Briadcasted to CCA at close. 
+  - :30 - window opens, carrier configured for recovery. Broadcasted to CCA at minute 20. 
+  - :55 - window closes. Broadcasted to CCA at close. 
 - The carrier will remain on BRC for a further 2 minutes before its turn downwind.
 - Recovery lighting including IFLOLS will only be on during the recovery window. 
 
 **Recovery Tanker** 
-- A recovery tanker will be launched when the recovery window opens. This will air launch to avoid deck crew conflict. The training tanker will remain indefinately.
+- A recovery tanker will be launched when the recovery window opens. This will air launch to avoid deck crew conflict. The recovery tanker will remain airborne indefinately.
 
 
 ## Case II/III Marshal Stack  
 *(F10 Options > Carrier Control > Marshal Options)*
 
-- This replaces the DCS ATC system and is used during CASE II/III operations when no controller is present, this is because ATC is based on game time and UTC which creates confusion. 
+- This replaces the DCS ATC system and is used during CASE II/III operations when no controller is present, this is because ATC is based on game time and not UTC which creates confusion. 
 
 **The Marshal Stack**  
-- Radials are offset from final bearing reciprocal. 0, +/-15 +/-30 
+- Radials are offset from final bearing reciprocal. 0, +/-15, +/-30 
 - Each radial has 4 slots 6/21, 7/22, 8/23, 9/24. 
+- The stack supports 20 slots. 
 - Slots assignments are fixed once assigned.
 - Slots are released 3 minutes after a successful approach. 
 - The queue can be joined between :00 and :45. (:45 is the last possible queue entry for a current window.)
@@ -82,10 +83,10 @@
 **Window vs Cycle**  
 
 - The recovery cycle includes the carrier manoeuvres and the recovery window from *turn-into-the-wind* to *turn-out-of-the-wind*. This is currently 37 minutes long starting at minutes 20 each hour.  
-- minute 20 : carrier turns into the wind, this can take 10 minutes with the escort ships frequently causing course corrections. 
-- minute 30 : recovery window opens. 
-- minute 55 : recovery window closes. 
-- minute 57 : carrier turns downwind
+- :20 - carrier turns into the wind, this can take 10 minutes with the escort ships frequently causing course corrections. 
+- :30 - recovery window opens. 
+- :55 - recovery window closes. 
+- :57 - carrier turns downwind
 - Recovery lighting including IFLOLS will only be on during the recovery window. 
 
 **Cycle Extensions**  
@@ -114,32 +115,33 @@ Hornet 302, Marshall from Mother at 343/24, at Angels 9. Pushtime Minute 33.
 ```
 
 **Carrier Lights**
-- OFF - no lights. It is safest to always use OFF before another state, with 20-30 second delay between. 
+- Light changes can take up to 30 seconds, do not spam these items. 
+- OFF - no lights. 
 - NAV - ships navigation lights. The deck is dark.
 - LAUNCH - bow and waist flood lights and taxi lights. The deck is bright. 
 - RECOVER - deck lights, taxi and navigation lights only, minimal floods. 
-- **IMPORTANT: ALWAYS USE "OFF" AFTER "RECOVERY", failure to do this will result in the IFLOLS being disabled permanently** 
+- **IMPORTANT: WHEN TRANSITIONING FROM "RECOVERY LIGHTING" ALWAYS SWITCH "OFF" FIRST. Failure to do this will result in the IFLOLS being disabled permanently** 
 
 ## Carrier Option Menu Tree
-```markdown
-F10 Menu other/
-└── Carrier Control
-    ├── Carrier Information
-    ├── Carrier Admin
-    │   ├── Start Recovery Cycle NOW (DEBUG) 
-    │   ├── Start CQ 90m Cycle NOW
-    │   ├── Extend current cycle 5m
-    │   ├── Start/Stop Recovery Tanker
-    │   ├── Show Marshal Stack
-    │   ├── Clear Marshal Stack (DEBUG)
-    │   └── Set Carrier Lights
-    │       └── [ OFF / NAV / LAUNCH / RECOVER ]
-    └── Marshal Options
-        ├── Panthers
-        │   └── [Contains options for adding/removing/updating flights 300-339]
-        │        └── [ JOIN / LEAVE / SHOW / UPDATE ]
-        └── Spectres
-            └── [Contains options for adding/removing/updating flights 200-229]
-                 └── [ JOIN / LEAVE / SHOW / UPDATE ]
+
+- F10 Other >
+  - Carrier Control
+    - Carrier Information
+    - Carrier Admin
+      - Start Recovery Cycle NOW (DEBUG)
+      - Start CQ 90m Cycle NOW
+      - Extend current cycle 5m
+      - Start/Stop Recovery Tanker
+      - Show Marshal Stack
+      - Clear Marshal Stack (DEBUG)
+      - Set Carrier Lights  
+        - [ OFF / NAV / LAUNCH / RECOVER ]
+    - Marshal Options
+      - Panthers  
+        - [Contains options for adding/removing/updating flights 300–339]  
+          - [ JOIN / LEAVE / SHOW / UPDATE ]
+      - Spectres  
+        - [Contains options for adding/removing/updating flights 200–229]  
+          - [ JOIN / LEAVE / SHOW / UPDATE ]
 
 [Back to frontpage](https://132nd-vwing.github.io/TRMA_Brief/)
