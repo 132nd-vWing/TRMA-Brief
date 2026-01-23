@@ -3,7 +3,7 @@
 
 - Always refer to **132-TTP-19 132nd Carrier Operations** for detailed procedures. 
 
-## Blue Carrier 
+### Blue Carrier 
 **CVN-73 George Washington**
 - **TACAN**: 13X, identifier "T73"
 - **ICLS**: 13, identifier "I73"
@@ -18,15 +18,17 @@
 
 - **Recovery Window**: XX:30 - XX:55 Realtime UTC
 
-## Red Carrier 
+### Red Carrier 
 **N/A**  
 
+<br><br>
+
 # Carrier Control
-## Cycle Overview
+### Cycle Overview
 
 - TRMA Carrier operations are controller by the carrier script and is linked to **Realtime UTC**, this allows the standard realtime planning model used in the wing. The carrier script controls the recovery cycle, carrier lighting, recovery tanker and CASE II/III Marshal stack. It includes an F10 Options menu tree for user interaction. The function of this system is restricted by DCS and MOOSE capability.  
 
-## Carrier Information 
+### Carrier Information 
 *(F10 Options > Carrier Control > Carrier Information)*
 
 **Weather and light conditions**
@@ -34,8 +36,9 @@
 - *Night* is defined as sunset+15min to sunrise-15min.  
 
 **Carrier / Recovery Heading**
-- *Final Bearing (FB)* will be within 5 degrees of the wind direction to provide optimal landing conditions and wind over the deck of 20 knots.  
-- *Base Recovery Course (BRC)* is derived from final bearing.
+- Due to some complexity in the way MOOSE deal woith turning into the wind, we have simplified this for the meantime. 
+- *Base Recovery Course (BRC)* is derived from wind direction. 
+- *Final Bearing (FB)* is BRC-9, therefore there will be slight crosswind. 
 
 **Carrier Illumination**
 - is configured automatically to match the carrier current state. When downwind navigation lights only, while turning upwind launch lights, recovery lights for the open recovery window until the carrier turns downwind. 
@@ -51,7 +54,7 @@
 - A recovery tanker will be launched when the recovery window opens. This will air launch to avoid deck crew conflict. The recovery tanker will remain airborne indefinately.
 
 
-## Case II/III Marshal Stack  
+### Case II/III Marshal Stack  
 *(F10 Options > Carrier Control > Marshal Options)*
 
 - This replaces the DCS ATC system and is used during CASE II/III operations when no controller is present, this is because ATC is based on game time and not UTC which creates confusion. 
@@ -61,23 +64,21 @@
 - Each radial has 4 slots 6/21, 7/22, 8/23, 9/24. 
 - The stack supports 20 slots. 
 - Slots assignments are fixed once assigned.
-- Slots are released 3 minutes after a successful approach. 
-- The queue can be joined between :00 and :45. (:45 is the last possible queue entry for a current window.)
+- Slots are released 3 minutes after commencing. 
+- The queue can be joined between :00 and :47. (:50 is the last possible approach)
 
 **Approach Time**  
-- Approach times are allocated from the possible window. (from >= open-5 until =< close-7). 
-- On request approach times will always be at least 3 minutes in the future, to allow for positioning. 
+- Approach times are allocated from times between ">= open-5" and "<= close-5". 
+- Approach times are allocated no more that now+3 to allow for positioning. 
 - Approach times are unique to each queueing pilot. 
-- Approach times can be updated should you be unable to achieve the first allocation, but the logic is simple, so it might result in an earlier time. 
+- Updated approachtimes can be requested, it will always be in the future, if a new time is not available the update reuqest will be denied. 
 
 **Modex Menus**  
 *(F10 Options > Carrier Control > Marshal Options > 31X > 315 > Join/Leave/Show) [Broadcasted to CAA]*
 
 - The menu tree includes a Modex specific menu that offers individual Join, Leave, Show and Update Approach Time options. 
 
-
-
-## Carrier Admin Menu
+### Carrier Admin Menu
 *(F10 Options > Carrier Control > Carrier Admin ) [for debug and admin use only]*
 
 **Window vs Cycle**  
@@ -109,9 +110,9 @@
 ```
 Current Marshall Queue
 Expect Final Bearing 352, QNH 3001
-Hornet 311, Marshall from Mother at 343/22, at Angels 7. Pushtime Minute 31.
-Tomcat 201, Marshall from Mother at 343/23, at Angels 8. Pushtime Minute 32.
-Hornet 302, Marshall from Mother at 343/24, at Angels 9. Pushtime Minute 33.
+311, Mother 343 / 22 angels 7 approach 31
+201, Mother 343 / 23 angels 8 approach 32
+302, Mother 343 / 24 angels 9 approach 33
 ```
 
 **Carrier Lights**
@@ -122,26 +123,29 @@ Hornet 302, Marshall from Mother at 343/24, at Angels 9. Pushtime Minute 33.
 - RECOVER - deck lights, taxi and navigation lights only, minimal floods. 
 - **IMPORTANT: WHEN TRANSITIONING FROM "RECOVERY LIGHTING" ALWAYS SWITCH "OFF" FIRST. Failure to do this will result in the IFLOLS being disabled permanently** 
 
-## Carrier Option Menu Tree
+### Carrier Option Menu Tree
 
 - F10 Other >
   - Carrier Control
     - Carrier Information
-    - Carrier Admin
-      - Start Recovery Cycle NOW (DEBUG)
-      - Start CQ 90m Cycle NOW
-      - Extend current cycle 5m
-      - Start/Stop Recovery Tanker
-      - Show Marshal Stack
-      - Clear Marshal Stack (DEBUG)
-      - Set Carrier Lights  
-        - [ OFF / NAV / LAUNCH / RECOVER ]
     - Marshal Options
+      - Show Marshal Stack
       - Panthers  
         - [Contains options for adding/removing/updating flights 300–339]  
           - [ JOIN / LEAVE / SHOW / UPDATE ]
       - Spectres  
         - [Contains options for adding/removing/updating flights 200–229]  
           - [ JOIN / LEAVE / SHOW / UPDATE ]
+    - \-\-\-
+    - Carrier Admin
+      - Extend current cycle 5m  (During window only)
+      - Start CQ 90m Cycle 
+      - Start/Stop Recovery Tanker
+      - Set Carrier Lights  
+        - [ OFF / NAV / LAUNCH / RECOVER ]
+      - \-\-\-
+      - Clear Marshal Stack (DEBUG)
+      - Start Recovery Cycle NOW (DEBUG)
+
 
 [Back to frontpage](https://132nd-vwing.github.io/TRMA_Brief/)
