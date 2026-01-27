@@ -29,7 +29,7 @@
 - TRMA Carrier operations are controller by the carrier script and is linked to **Realtime UTC**, this allows the standard realtime planning model used in the wing. The carrier script controls the recovery cycle, carrier lighting, recovery tanker and CASE II/III Marshal stack. It includes an F10 Options menu tree for user interaction. The function of this system is restricted by DCS and MOOSE capability.  
 
 ### Carrier Information 
-*(F10 Options > Carrier Control > Carrier Information)*
+*(F10 Options > Carrier Control > Carrier Information) [Broadcasted to CCA]*
 
 **Weather and light conditions**
 - Conditions are scanned every 30 minutes using the carriers current location as a reference to ensure localised accuracy. These determine the Recovery parameters with an attempt to match NATOPS parameters where possible. 
@@ -53,10 +53,7 @@
 **Recovery Tanker** 
 - A recovery tanker will be launched when the recovery window opens. This will air launch to avoid deck crew conflict. The recovery tanker will remain airborne indefinately.
 
-
 ### Case II/III Marshal Stack  
-*(F10 Options > Carrier Control > Marshal Options)*
-
 - This replaces the DCS ATC system and is used during CASE II/III operations when no controller is present, this is because ATC is based on game time and not UTC which creates confusion. 
 
 **The Marshal Stack**  
@@ -73,39 +70,15 @@
 - Approach times are unique to each queueing pilot. 
 - Updated approachtimes can be requested, it will always be in the future, if a new time is not available the update reuqest will be denied. 
 
-**Modex Menus**  
-*(F10 Options > Carrier Control > Marshal Options > 31X > 315 > Join/Leave/Show) [Broadcasted to CAA]*
+### Marshal Options Menus
+*(F10 Options > Carrier Control > Marshal Options)* 
 
-- The menu tree includes a Modex specific menu that offers individual Join, Leave, Show and Update Approach Time options. 
-
-### Carrier Admin Menu
-*(F10 Options > Carrier Control > Carrier Admin ) [for debug and admin use only]*
-
-**Window vs Cycle**  
-
-- The recovery cycle includes the carrier manoeuvres and the recovery window from *turn-into-the-wind* to *turn-out-of-the-wind*. This is currently 37 minutes long starting at minutes 20 each hour.  
-- :20 - carrier turns into the wind, this can take 10 minutes with the escort ships frequently causing course corrections. 
-- :30 - recovery window opens. 
-- :55 - recovery window closes. 
-- :57 - carrier turns downwind
-- Recovery lighting including IFLOLS will only be on during the recovery window. 
-
-**Cycle Extensions**  
-- The stardard recovery cycle can be extended in 5 minute increments, this pushes the cycle times out for the sum of the increments. All time links will be extended as well.
-
-**Manual Starts**  
-- Start CQ 90 recovery can be started at any time. The cycle is 90 minutes, which includes the 10m turn-in and 2 minute close-turn-out buffer.   
-- Start Recovery Now overrides the standard timing and starts a recovery cycle immediated.  
-- Manual cycles cannot be extended because they will not be UTC aligned, and standard cycles must be resumed as soon as possible.
-
-**Recovery Tanker Control**
-- The recovery tanker spawns on the first recovery cycle and remains airborne indefinately. 
-- If required the menu item can be used to stop/start the tanker.   
-
-**Marshall Queue Options**
-- Show Queue is used to list the 9 soonest queue slots. They are sorted chronologically. (currently sorted by modex will be fixed)
-- Clear Marshal Queue will empty the current queue. 
-- Note the DCS limits the number of lines visible, and to avoid generating load, only the soonest 9 approaches will be show.  
+**Options**
+- Set my Modex - One time modex registration. Once done the server should remember. If you change your PlayerName re-register. This is persistent. 
+- Join/Leave - client specific triggers with player only responses. 
+- Show My Marshal Info - repeats your marshal call. 
+- Update Approach Time - assigns you a later approach time, if available. 
+- Show Marshal Stack - show sthe entire stack (BROADCASTED TO CCA). eg below. 
 
 ```
 Current Marshall Queue
@@ -114,6 +87,24 @@ Expect Final Bearing 352, QNH 3001
 201, Mother 343 / 23 angels 8 approach 32
 302, Mother 343 / 24 angels 9 approach 33
 ```
+### Carrier Admin Menu
+*(F10 Options > Carrier Control > Carrier Admin )*
+
+**Window vs Cycle**  
+- The recovery cycle includes the carrier manoeuvres and the recovery window from *turn-into-the-wind* to *turn-out-of-the-wind*. This is currently 37 minutes long starting at minutes 20 each hour.  
+- :20 - carrier turns into the wind, this can take 10 minutes with the escort ships frequently causing course corrections. 
+- :30 - recovery window opens. 
+- :55 - recovery window closes. 
+- :57 - carrier turns downwind
+- Recovery lighting including IFLOLS will only be on during the recovery window. 
+
+**Cycle Extensions**  
+- Any recovery cycle can be extended in 5 minute increments, this pushes the cycle times out for the sum of the increments.
+
+**Options**  
+- Schedule CQ Recovery - converts the next Recovery to carrier Qual (90 minutes)   
+- Start/Stop Recovery Tanker - do one or the other depending on tanker state. 
+- Configure Carrier Lights - See below
 
 **Carrier Lights**
 - Light changes can take up to 30 seconds, do not spam these items. 
@@ -129,23 +120,31 @@ Expect Final Bearing 352, QNH 3001
   - Carrier Control
     - Carrier Information
     - Marshal Options
-      - Show Marshal Stack
-      - Panthers  
-        - [Contains options for adding/removing/updating flights 300–339]  
-          - [ JOIN / LEAVE / SHOW / UPDATE ]
-      - Spectres  
-        - [Contains options for adding/removing/updating flights 200–229]  
-          - [ JOIN / LEAVE / SHOW / UPDATE ]
-    - \-\-\-
+      - Join Queue
+      - Leave Queue
+      - Show my Info
+      - Update Approach Time
+      -\-\-\-
+      - Set my Modex  
+        - Panthers  
+          - [Contains options for adding/removing/updating flights 300–339]  
+            - Register MODEX
+        - Spectres  
+          - [Contains options for adding/removing/updating flights 200–229]  
+            - Register MODEX
     - Carrier Admin
       - Extend current cycle 5m  (During window only)
-      - Start CQ 90m Cycle 
+      - Start CQ Cycle 
       - Start/Stop Recovery Tanker
       - Set Carrier Lights  
         - [ OFF / NAV / LAUNCH / RECOVER ]
-      - \-\-\-
-      - Clear Marshal Stack (DEBUG)
-      - Start Recovery Cycle NOW (DEBUG)
+    -\-\-\-
+    - Carrier Debug  
+      - Start Recovery Cycle NOW
+      - Debug Report
+      - Clear Marshal Stack 
+      - Identify My Aircraft
+      - Old Marshal Options
 
 
 [Back to frontpage](https://132nd-vwing.github.io/TRMA_Brief/)
