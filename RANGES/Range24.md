@@ -22,7 +22,7 @@ The range have a rocket artillery BN protected by army IADS. The rocket artiller
 
 
 ### Locations
-![Locations](/TRMA-Brief/GRAPHICS/Range24_map.PNG)
+![Locations](../GRAPHICS/Range24_map.PNG)
 
 
 ### ADMIN
