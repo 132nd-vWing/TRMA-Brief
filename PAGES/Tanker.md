@@ -51,6 +51,7 @@ All tankers need to be activated via F10 menu.
 
 ## Locations
 See CombatFlite file for locations
+![Tanker Tracks](../GRAPHICS/TRMA_Tankers.PNG)
 
 
 
