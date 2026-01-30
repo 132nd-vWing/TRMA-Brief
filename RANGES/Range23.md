@@ -58,10 +58,10 @@ The SCUD HUNT scenario can also be conducted with the SCUDs beeing protected by 
 
 ## JOKKMOKK ROAD RUNWAYS
 - The JokkMokk road runways are equipped with invisible FARP for Blue rearm/refuel. They are located as per the map below.  
-![Jokkmokk RRW](/GRAPHICS/RRW-JokkMokk.png)
+![Jokkmokk RRW](../GRAPHICS/RRW-JokkMokk.png)
 
 - The Invisible FARP will only Rearm aircraft within 100m of the FARP and support vehicles, therefore, white marker tyres are located to indicate the required range as shown in the image below.  
-![RRW Markers](/GRAPHICS/RRW-RearmZone.png)
+![RRW Markers](../GRAPHICS/RRW-RearmZone.png)
 
 ## Back
 [Back to frontpage](https://132nd-vwing.github.io/TRMA-Brief/)
