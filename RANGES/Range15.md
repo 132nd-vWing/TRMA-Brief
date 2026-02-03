@@ -82,7 +82,7 @@ Or:
 3)	Provide close support to the SOF throughout the operation by isolating the AO from adjacent enemy forces.<br />
 
 ### FRIENDLY DEPLOYMENT
-1)	JTAC position: N67 26.050 / E014 14.430 / 87ft / About 1000m West of the village.<br />
+1)	JTAC position: N67 26.050 / E014 44.430 / 87ft / About 1000m West of the village.<br />
 2)	SOF team starting position (Infantry): Collocated the JTAC position.<br />
 3)	SOF team starting position (APCs): N67 24 .420 / E014 41.520 / 105ft / On the access road to the village, about 2.5km to the SW.<br />
 
