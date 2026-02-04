@@ -66,9 +66,11 @@
 
 **Approach Time**  
 - Approach times are allocated from times between ">= open-5" and "<= close-5". 
-- Approach times are allocated no more that now+3 to allow for positioning. 
+- Join earliest approach is at least 10m from now. This allows at least 10m to get to your fix. 
+- Update earliest approach is at least 3m from now. You are already in your 
 - Approach times are unique to each queueing pilot. 
 - Updated approachtimes can be requested, it will always be in the future, if a new time is not available the update reuqest will be denied. 
+
 
 ### Marshal Options Menus
 *(F10 Options > Carrier Control > Marshal Options)* 
