@@ -48,16 +48,16 @@ Lights are configured automatically to match the carrier current state. When dow
 
 ### Recovery
 **Recovery Window (minute past the hour)**  
-The carrier will be upwind and on course from window open to window close. The carrier will remain on BRC for a further 2 minutes before its turn downwind. Recovery lighting including IFLOLS will only be on during the recovery window. Default timing is:  
+The carrier will turn upwind about 10 minutes before the window opens, it will be upwind and on course from window open to window close. The carrier will remain on BRC for a further 2 minutes before its turn downwind. Recovery lighting including IFLOLS will only be on during the recovery window. Default timing is:  
 - XX:30 - window opens, carrier configured for recovery. 
 - XX:55 - window closes.  
-The window can be extended by 5m from the menus.
+The window can be extended by 5m from the menus, this will shift all window logic by the incriments.
 
 **Special Recovery Windows**  
-The menu offers the ability to change the next standard recovery cycle to a CQ cycle, which simple changes the window length from 25m to 85m. Everything adjusts to allow a longer unwind leg. 
+The menu offers the ability to change the next standard recovery cycle to a CQ cycle, which simple changes the window length from 25m to 85m. Everything adjusts to allow a longer unwind leg. Note this must be done before the cycle begins (< xx:20). Once the cycle has started you can only extend it. 
 
 **Recovery Tanker**  
-A recovery tanker will be launched when the recovery window opens. This will air launch to avoid deck crew conflict. The recovery tanker will remain airborne indefinately. You can start or stop the recovery tanker through the menus. 
+A recovery tanker will be launched when the recovery window opens. This will air launch to avoid deck crew conflict. The recovery tanker will remain airborne indefinately. You can start or stop the recovery tanker through the menus. A rescue chopper luanches before the window open, and will maintain rescue station at 250ft, 500ft to right of the bow. I will recover to the Arley Burk trailing the carrier when the window closes. 
 
 ### Case II/III Marshal Stack  
 This replaces the DCS ATC system and is used during CASE II/III operations when no controller is present, this is because ATC is based on game time and not UTC which creates confusion.
@@ -72,11 +72,13 @@ This replaces the DCS ATC system and is used during CASE II/III operations when 
 
 **Approach Time**  
 - Approach times are allocated from times between ">= open-5" and "<= close-5". 
-- When joining the queue your approach time will be at least 10m from request time. This allows positioning.  
+- When joining the queue your approach time will be at least 15m from request time. This allows positioning.  
 - When requesting an updated approach time, it will be at least 3 minutes from require time as you are already in your 
 - Approach times are unique to each queueing pilot, and expect pilots to arrive on FB at 12DME at roughly 1m intervals.  
 - If your approach cannot be accomodated this cycle you will not be allocated a new time. 
 - Join, Leave, Update the queue through the Marshal Options menus. 
+
+*Note: If you arrive at your hold with excess time you can try and ask for a new time, updating approach time logic might be able to slot you in sooner.*
 
 ### Carrier Option Menu Tree
 
@@ -104,5 +106,8 @@ This replaces the DCS ATC system and is used during CASE II/III operations when 
       - Start Recovery Cycle NOW
       - Debug Report
       - Clear Marshal Stack 
+
+#### Changes
+- Marshal Queue Join buffer extended to 15m. 
 
 [Back to frontpage](https://132nd-vwing.github.io/TRMA_Brief/)
