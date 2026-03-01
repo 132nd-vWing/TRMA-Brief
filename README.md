@@ -38,7 +38,8 @@ Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
 
 
 
-![Ranges and MOAs](/GRAPHICS/TRMA Range layout.PNG)
+<!--![Ranges and MOAs](/GRAPHICS/TRMA Range layout.PNG)-->
+![Ranges and MOAs](/GRAPHICS/TRMA-range-layout-2.png)
 
 
 

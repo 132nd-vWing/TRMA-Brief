@@ -73,12 +73,15 @@ This replaces the DCS ATC system and is used during CASE II/III operations when 
 **Approach Time**  
 - Approach times are allocated from times between ">= open-5" and "<= close-5". 
 - When joining the queue your approach time will be at least 15m from request time. This allows positioning.  
-- When requesting an updated approach time, it will be at least 3 minutes from require time as you are already in your 
+- When requesting an updated approach time, it will be at least 3 minutes from require time as you are already in your hold. 
 - Approach times are unique to each queueing pilot, and expect pilots to arrive on FB at 12DME at roughly 1m intervals.  
 - If your approach cannot be accomodated this cycle you will not be allocated a new time. 
 - Join, Leave, Update the queue through the Marshal Options menus. 
 
-*Note: If you arrive at your hold with excess time you can try and ask for a new time, updating approach time logic might be able to slot you in sooner.*
+*Note:  
+If you arrive at your hold with excess time you can try and ask for a new time, updating approach time logic might be able to slot you in sooner.  
+You have to join the queue before XX:40 to get into this cycle. 
+*
 
 ### Carrier Option Menu Tree
 
