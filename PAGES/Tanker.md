@@ -8,10 +8,10 @@ All tankers need to be activated via F10 menu.
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  |
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**ARCO 1**   | AR 201     | 200    | 40Y       | 280.0 MHz     | 5201     | 
-**ARCO 2**   | AR 202     | 200    | 41Y       | 281.0 MHz     | 5202    | 
-**ARCO 3**   | AR 203     | 200    | 42Y       | 282.0 MHz     | 5203     | 
-**ARCO 8**   | AR 208     | 200    | 42X       | 286.5 MHz     | 5208     |
+**ARCO 11**   | AR 201     | 200    | 40Y       | 280.0 MHz     | 5201     | 
+**ARCO 21**   | AR 202     | 200    | 41Y       | 281.0 MHz     | 5202    | 
+**ARCO 31**   | AR 203     | 200    | 42Y       | 282.0 MHz     | 5203     | 
+**ARCO 41**   | AR 204     | 200    | 42X       | 286.5 MHz     | 5204     |
 
 
 ### KC-135 MPRS
@@ -27,7 +27,7 @@ All tankers need to be activated via F10 menu.
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  | 
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**SHELL 7**  | AR 305     | 050   | 46X      | 281.5 MHz     | 5307    | 
+**SHELL 5**  | AR 305     | 050   | 46X      | 281.5 MHz     | 5305    | 
 
 
 ## REDFOR
@@ -36,19 +36,19 @@ All tankers need to be activated via F10 menu.
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  | 
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**ARCO 4**  | AR 401     | 200    | 43Y       | 283.0 MHz     | 5204    | 
-**ARCO 5**  | AR 402     | 200    | 44Y       | 284.0 MHz     | 5205    | 
-**ARCO 6**  | AR 403     | 200    | 40X       | 284.5 MHz     | 5206    | 
-**ARCO 7**  | AR 404     | 200    | 41X       | 282.5 MHz     | 5207    | 
+**ARCO 6**  | AR 401     | 200    | 43Y       | 283.0 MHz     | 5401    | 
+**ARCO 7**  | AR 402     | 200    | 44Y       | 284.0 MHz     | 5402    | 
+**ARCO 8**  | AR 403     | 200    | 40X       | 284.5 MHz     | 5403    | 
+**ARCO 9**  | AR 404     | 200    | 41X       | 282.5 MHz     | 5404    | 
 
 ### KC-135 MPRS
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  | 
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**SHELL 5**  | AR 501     | 240    | 64Y       | 285.0 MHz     | 5305     | 
-**SHELL 6**  | AR 502     | 240    | 65Y       | 280.5 MHz     | 5306     | 
-**SHELL 7**  | AR 503     | 240    | 47X       | 285.5 MHz     | 5307     | 
-**SHELL 8**  | AR 504     | 240    | 48X       | 288.5 MHz     | 5308     | 
+**SHELL 6**  | AR 501     | 240    | 64Y       | 285.0 MHz     | 5501     | 
+**SHELL 7**  | AR 502     | 240    | 65Y       | 280.5 MHz     | 5502     | 
+**SHELL 8**  | AR 503     | 240    | 47X       | 285.5 MHz     | 5503     | 
+**SHELL 9**  | AR 504     | 240    | 48X       | 288.5 MHz     | 5504     | 
 
 ## Locations
 See CombatFlite file for locations
