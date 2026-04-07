@@ -11,6 +11,7 @@ All tankers need to be activated via F10 menu.
 **ARCO 1**   | AR 201     | 200    | 40Y       | 280.0 MHz     | 5201     | 
 **ARCO 2**   | AR 202     | 200    | 41Y       | 281.0 MHz     | 5202    | 
 **ARCO 3**   | AR 203     | 200    | 42Y       | 282.0 MHz     | 5203     | 
+**ARCO 8**   | AR 208     | 200    | 42X       | 286.5 MHz     | 5208     |
 
 
 ### KC-135 MPRS
