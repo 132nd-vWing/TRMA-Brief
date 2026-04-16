@@ -12,6 +12,7 @@ All tankers need to be activated via F10 menu.
 **ARCO 2**   | AR 202     | 200    | 41Y       | 281.0 MHz     | 5202    | 
 **ARCO 3**   | AR 203     | 200    | 42Y       | 282.0 MHz     | 5203     | 
 **ARCO 4**   | AR 204     | 200    | 42X       | 286.5 MHz     | 5204     |
+
 **TEXACO 1** | AR 101      | 120   | 37Y       | 283.5 Mhz     | 5101     |
 **TEXACO 2** | AR 102      | 120   | 38Y       | 287.5 Mhz     | 5102     |
 
@@ -32,25 +33,26 @@ All tankers need to be activated via F10 menu.
 **SHELL 5 disabled**  | AR 305     | 050   | 46X      | 281.5 MHz     | 5305    | 
 
 
+
 ## REDFOR
 
 ### KC-135
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  | 
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**ARCO 61**  | AR 401     | 200    | 43Y       | 283.0 MHz     | 5401    | 
-**ARCO 71**  | AR 402     | 200    | 44Y       | 284.0 MHz     | 5402    | 
-**ARCO 81**  | AR 403     | 200    | 40X       | 284.5 MHz     | 5403    | 
-**ARCO 91**  | AR 404     | 200    | 41X       | 282.5 MHz     | 5404    | 
+**ARCO 6**  | AR 401     | 200    | 43Y       | 283.0 MHz     | 5401    | 
+**ARCO 7**  | AR 402     | 200    | 44Y       | 284.0 MHz     | 5402    | 
+**ARCO 8**  | AR 403     | 200    | 40X       | 284.5 MHz     | 5403    | 
+**ARCO 9**  | AR 404     | 200    | 41X       | 282.5 MHz     | 5404    | 
 
 ### KC-135 MPRS
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  | 
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**SHELL 61**  | AR 501     | 240    | 64Y       | 285.0 MHz     | 5501     | 
-**SHELL 71**  | AR 502     | 240    | 65Y       | 280.5 MHz     | 5502     | 
-**SHELL 81**  | AR 503     | 240    | 47X       | 285.5 MHz     | 5503     | 
-**SHELL 91**  | AR 504     | 240    | 48X       | 288.5 MHz     | 5504     | 
+**SHELL 6**  | AR 501     | 240    | 39Y       | 285.0 MHz     | 5501     | 
+**SHELL 7**  | AR 502     | 240    | 43X       | 280.5 MHz     | 5502     | 
+**SHELL 8**  | AR 503     | 240    | 44X       | 285.5 MHz     | 5503     | 
+**SHELL 9**  | AR 504     | 240    | 48X       | 288.5 MHz     | 5504     | 
 
 ## Locations
 See CombatFlite file for locations
