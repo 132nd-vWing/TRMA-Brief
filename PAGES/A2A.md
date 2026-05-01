@@ -1,15 +1,16 @@
-
 # Range Drones
 ver 2.3
 
-The new range drone system is in testing in the following Ranges: 
+The new range drone system is released for the following Ranges: 
 
 Range 21
 Range 22
 Range 23
 Range 31
 Range 32
+Range 33
 
+NOTE: A2A drones are not smart, and do better with an AWACS close by. 
 
 ## Air 2 Air Advesary Script Function
 
@@ -50,5 +51,4 @@ Groups 1-4 allow the configuration of your required engagement airframes that ca
 
 ![Locations](../GRAPHICS/TRMA_A2A_Zones.PNG)
 
-## Back
 [Back to frontpage](https://132nd-vwing.github.io/TRMA-Brief/)
