@@ -35,19 +35,23 @@ This defines the load and max detection range of the drone groups.
 BVR max detection range ~120nm.  
 BFM max detection range ~30nm. 
 
-Groups 1-4 allow the configuration of your required engagement airframes that can be configured through the Group Config Menu even before you leave the ground. 
+Groups 1 & 2 allow the configuration of your required engagement airframes that can be configured through the Group Config Menu even before you leave the ground. 
 
 ## Enemy ROE
 - Drones groups execute a CAP mission in the vacinity of their spawn zone when they are first spawned. 
-- Drones will only engage targets inside the range.
-- Max detection range is only the possible maximum, it might be short (DCS mechanics)
+- Drones will only engage targets inside their range.
+- Red AWACS greatly improves the drone detection capability. 
+- Max detection range is the possible maximum range that targets are detected.
 - Engagement range is not configurable. (see note)
-*Note: the engagement range is defined as maximum range in the drone templates, but their skill is set to average else they are impossible to beat, the side effect is that low skilled drones engage closer. There is no way around this.*
+- Drone skill is set to "good", "avergae was too easy".
+
+*Note: the engagement range is defined as maximum range in the drone templates, but their skill is set to "good" else they are impossible to beat, the side effect is that lower skilled drones engage closer. There is no way around this.*
 
 ## Zone Violation
-- Drones will not engage target outside the zone. 
-- However, they wiull persue pre-engaged targets outside their zone. 
-- Once the targets are eliminated they will return to their Spawn zone.  
+- Drones will disengage only when **they** leave the range. 
+- When drones disengage they will return to their spawn zone. 
+- Drones will remain disengaged until re-entering their spawn zone, where they will reactivate their target search. 
+
 
 ![Locations](../GRAPHICS/TRMA_A2A_Zones.PNG)
 
