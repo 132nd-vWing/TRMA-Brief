@@ -30,7 +30,7 @@ All tankers need to be activated via F10 menu.
 
 **FLIGHT** | **TRACK**  | **FL** | **TACAN** | **FREQUENCY** | **IFF**  | 
  --------- | -----------| ------ | ------    | -----------   | -------- | 
-**SHELL 5 disabled**  | AR 305     | 050   | 46X      | 281.5 MHz     | 5305    | 
+**SHELL 5**  | AR 305     | 050   | 46X      | 281.5 MHz     | 5305    | 
 
 
 
