@@ -5,7 +5,7 @@ Scenario is a classic war scenario, BLUE vs RED. Enemy territory to the EAST, fr
 The scenario uses range 23 airspace.
 
 ## Scenario overview
-![Exercise GREEN SHIELD scenario overview](/TRMA-Brief/GRAPHICS/EX_GREENSHIELD_OVERVIEW.png)
+![Exercise GREEN SHIELD scenario overview](../GRAPHICS/EX_GREENSHIELD_OVERVIEW.png)
 
 
 
