@@ -116,8 +116,6 @@ Or:
 ### INTELLIGENCE:
 1)	ENY insurgents force consists mostly of technicals, infantry and small numbers of stolen military equipment including BMPs, BTRs and T55s. <br />
 2)	Enemy is known to possess SHORAD air-defenses in the sector. <br />
-3)	AO map: <br />
-TBDTBDTBD
  
 ### GFC MISSION PRIORITY-1 
 Seize positions ALPHA and BRAVO to take control of the main road running to the NORTH-EAST thereby cutting off ENY forces in the Western villages from possible reinfrocements:<br />
