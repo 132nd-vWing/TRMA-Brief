@@ -120,7 +120,7 @@ Or:
 ### GFC MISSION PRIORITY-1 
 Seize positions ALPHA and BRAVO to take control of the main road running to the NORTH-EAST thereby cutting off ENY forces in the Western villages from possible reinfrocements:<br />
 
- ### GFC MISSION SECONDARY OBJECTIVE (EXPLOITATION OF SUCCESS) 
+### GFC MISSION SECONDARY OBJECTIVE (EXPLOITATION OF SUCCESS) 
 If situation permits (Mission time, strength of forces), TF will improve positions and advance along the Western coast, clear the villages of ENY presence and seize position CHARLIE
 
 ### GFC INTENT FOR CAS
