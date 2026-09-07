@@ -97,17 +97,74 @@ Or:
 
 
 ### ADMIN
-1)	All enemy units are set to engage only ground units. Training air-assets will not be targeted (To facilitate safety of training environment). However low-level flying assets could potentially face a small risk of damage due to ricochets from ground fires. <br />
-2)	All control of the SOF teams is by the JTAC / GFC. <br />
-3)	For simplicity, SOF arrival close to the objective CP counts as a successful ingress. SOF withdrawal back to its starting point counts as a successful EXFIL. <br />
-4)	As soon as ANY of the two SOF choices starts moving towards the village, the OTHER SOF will shortly thereafter deactivate and disappear to prevent confusion. <br />
-5)	Communications: based on Range-15 frequencies. <br />
-6)	Range-15 is near the TMA, ensure air assets are deconflicted: either within R15 airspace or above FL195 if extending to the SOUTH towards BODO. <br />
+1)	All control of the SOF teams is by the JTAC / GFC. <br />
+2)	For simplicity, SOF arrival close to the objective CP counts as a successful ingress. SOF withdrawal back to its starting point counts as a successful EXFIL. <br />
+3)	As soon as ANY of the two SOF choices starts moving towards the village, the OTHER SOF will shortly thereafter deactivate and disappear to prevent confusion. <br />
+4)	Communications: based on Range-15 frequencies. <br />
+5)	Range-15 is near the TMA, ensure air assets are deconflicted: either within R15 airspace or above FL195 if extending to the SOUTH towards BODO. <br />
 
 <br>
 <br>
+
+# Tactical Close Air Support (CAS) scenario-3
+
+### GENERAL BACKGROUND:
+1)	Insurgents have advanced to the North-Western group of villages in the sector with a small force. The ENY advance further SOUTH was halted near the industrial zone.<br />
+2)	BLUEFOR is still mobilizing but fearing the ENY will reinforce its forces the decision was made to immediately launch a counteroffensive based on the small force already in the area.<br />
+3)	GFC mission is to seize vantage points and disrupt ENY plans to reinforce and continue its offensive.<br />
+
+### INTELLIGENCE:
+1)	ENY insurgents force consists mostly of technicals, infantry and small numbers of stolen military equipment including BMPs, BTRs and T55s. <br />
+2)	Enemy is known to possess SHORAD air-defenses in the sector. <br />
+3)	AO map: <br />
+TBDTBDTBD
+ 
+### GFC MISSION PRIORITY-1 
+Seize positions ALPHA and BRAVO to take control of the main road running to the NORTH-EAST thereby cutting off ENY forces in the Western villages from possible reinfrocements:<br />
+
+ ### GFC MISSION - OPPORTUNITY 
+If situation permits (Mission time, strength of forces), TF will improve positions and advance along the Western coast, clear the villages of ENY presence and seize position CHARLIE
+
+### GFC INTENT FOR CAS
+1)	Support TF advance to positions ALPHA and BRAVO.<br />
+2) 	Support TF advance to CHARLIE depending on progress and GFC decision.<br />
+3) 	Interdict ENY reinforcements expected from the NORTH-EAST and amplify ENY presence and movements.<br />
+4)	Targets and priorities:<br />
+   a.	100% of MBTs and IFVs in the AO.<br />
+   b.	75% of armed pickup trucks in the AO.<br />
+   c.	50% of dismounted infantry in the AO.<br />
+
+### FRIENDLY DEPLOYMENT
+1)	JTAC OP: 33W VQ838-736 / N67 22.7 E014 37.4 .<br />
+2) TF STAGING AREA:  33W VQ845-742 / N67 23.0 E014 38.3 .<br />
+TF composition: <br />
+x3 mechanized platoons (LAV-25). <br />
+x2 Scout sections (2x HMMWVs each). <br />
+120mm mortar position. <br />
+
+### RESTRICTIONS
+1)	Minimize collateral damage. Noncombatants are still present in the villages.<br />
+2)	Within 100m from the village perimeter, only the following ordnance types are approved:<br />
+   a.	Forward-firing, AP warheads. <br />
+   b.	30mm rounds or smaller. <br />
+3)	Further out, the use of warheads up to 500lb HE is approved.<br />
+4)	Cluster munitions are prohibited.<br />
+ 
+### ADMIN
+1)	The scenario makes use of live fire by RED AI units. Notify other users to avoid transit flights below FL200 in the SOUTH side of the range.
+2)	All control of BLUEFOR units is by the JTAC / GFC. <br />
+3) 	All BLUEFOR units are immortal. JTAC and HMMWV units are also invisible and wll not draw RED fire (Simulating camouflaged / hidden presence). <br />
+4)	Communications: based on Range-15 frequencies. <br />
+5)	Range-15 is near the TMA, ensure air assets are deconflicted: either within R15 airspace or above FL195 if extending to the SOUTH towards BODO. <br />
+
+<img width="1870" height="1939" alt="R15_CAS3 BRIEFING MAPS - STARTING CONDITION" src="https://github.com/user-attachments/assets/2393b5f9-606d-4a25-b9f9-489d4a1af095" />
+
+<img width="1870" height="1939" alt="R15_CAS3 BRIEFING MAPS - END CONDITION" src="https://github.com/user-attachments/assets/b0270baa-aa05-4633-b4fe-1acabefc9914" />
+
 <br>
 <br>
+
+
 
 # AR scenario (RW)
 Friendly territory are south of the range , and the entire range is considered enemy territory.
