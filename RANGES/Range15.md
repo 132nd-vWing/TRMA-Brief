@@ -120,7 +120,7 @@ Or:
 ### GFC MISSION PRIORITY-1 
 Seize positions ALPHA and BRAVO to take control of the main road running to the NORTH-EAST thereby cutting off ENY forces in the Western villages from possible reinfrocements:<br />
 
- ### GFC MISSION - OPPORTUNITY 
+ ### GFC MISSION SECONDARY OBJECTIVE (EXPLOITATION OF SUCCESS) 
 If situation permits (Mission time, strength of forces), TF will improve positions and advance along the Western coast, clear the villages of ENY presence and seize position CHARLIE
 
 ### GFC INTENT FOR CAS
@@ -149,7 +149,7 @@ x2 Scout sections (2x HMMWVs each). <br />
 4)	Cluster munitions are prohibited.<br />
  
 ### ADMIN
-1)	The scenario makes use of live fire by RED AI units. Notify other users to avoid transit flights below FL200 in the SOUTH side of the range.
+1)	The scenario makes use of live fire by RED AI units. Notify other users to avoid transit flights below FL200 in the SOUTH side of the range.<br />
 2)	All control of BLUEFOR units is by the JTAC / GFC. <br />
 3) 	All BLUEFOR units are immortal. JTAC and HMMWV units are also invisible and wll not draw RED fire (Simulating camouflaged / hidden presence). <br />
 4)	Communications: based on Range-15 frequencies. <br />
