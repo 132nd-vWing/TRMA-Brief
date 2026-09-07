@@ -155,10 +155,9 @@ x2 Scout sections (2x HMMWVs each). <br />
 4)	Communications: based on Range-15 frequencies. <br />
 5)	Range-15 is near the TMA, ensure air assets are deconflicted: either within R15 airspace or above FL195 if extending to the SOUTH towards BODO. <br />
 
-<img width="1870" height="1939" alt="R15_CAS3 BRIEFING MAPS - STARTING CONDITION" src="https://github.com/user-attachments/assets/2393b5f9-606d-4a25-b9f9-489d4a1af095" />
+ <img alt="image" src="https://github.com/user-attachments/assets/2393b5f9-606d-4a25-b9f9-489d4a1af095" />
 
-<img width="1870" height="1939" alt="R15_CAS3 BRIEFING MAPS - END CONDITION" src="https://github.com/user-attachments/assets/b0270baa-aa05-4633-b4fe-1acabefc9914" />
-
+ <img alt="image" src="https://github.com/user-attachments/assets/b0270baa-aa05-4633-b4fe-1acabefc9914" />
 <br>
 <br>
 
