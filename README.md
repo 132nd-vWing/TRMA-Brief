@@ -10,11 +10,11 @@ The 132nd Virtual Wing is based at Bodø Airbase, Norway. The 132nd conducts loc
 * [Carrier admin](PAGES/Carrier.md)
 * [Navigation (FLIP ENBO CHARTS)](https://cloud.132virtualwing.org/s/q6PXgN7kwj9feem)  have those on your kneeboard!
 * [Navigation (FLIP other CHARTS)](https://cloud.132virtualwing.org/s/my92eGXa9NbLXKz)
-* [CombatFlite file for planning](/TRMA-Brief/PAGES/TRMA Combatflite file.cf)
+* [CombatFlite file for planning](PAGES/TRMA%20Combatflite%20file.cf)
 * NEW! [MissionPlot file for planning](/TRMA-Brief/PAGES/TRMA_Missionplot_file.ttm) Added 06/2026
 * [Red Force Doctrine/Intelligence](/TRMA-Brief/INTELLIGENCE/INTELLIGENCE.html) 
 * [Communication (frequencies, presets, datalink](/COMMUNICATIONS/PRESETS.md)  
-* [Standing SPINS](/TRMA-Brief/PAGES/TRMA STANDING SPINS.pdf) 
+* [Standing SPINS](PAGES/TRMA%20STANDING%20SPINS.pdf)
 * [Tanker information](/TRMA-Brief/PAGES/Tanker.html)
 * [Airspace boundaries in Tacview](https://cloud.132virtualwing.org/s/2tGEax7xEqYGAXy)  NOT UPDATED
 * [Target List](/TRMA-Brief/PAGES/Targetlist.html)  
@@ -26,12 +26,12 @@ The 132nd host various advanced training exercises. <br>
 <br>
 TO BE COMPLETED ONCE WE CREATE ADVANCED EXERCISE SCENARIOS 
 
-## Taskings 
+## Taskings
 Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
-* [Strike+OCA Escort, range 23](/TRMA-Brief/TASKINGS/132nd Strike and OCA Escort v1.0 TRMA.pdf)
-* [EXERCISE RED THUNDER A: Strike+OCA Escort+SEAD (with human aggressor), range 23](/TRMA-Brief/TASKINGS/EX RED THUNDER A - Strike-SEAD-Escort and aggressors in range 23.pdf)
-* [EXERCISE RED THUNDER B: Strike+SEAD (without air threat), range 23](/TRMA-Brief/TASKINGS/EX RED THUNDER B - Strike and SEAD in range 23.pdf)
-* [EXERCISE GREEN SHIELD](/TRMA-Brief/TASKINGS/EX_Green_Shield.html)
+* [Strike+OCA Escort, range 23](TASKINGS/132nd%20Strike%20and%20OCA%20Escort%20v1.0%20TRMA.pdf)
+* [EXERCISE RED THUNDER A: Strike+OCA Escort+SEAD (with human aggressor), range 23](TASKINGS/EX%20RED%20THUNDER%20A%20-%20Strike-SEAD-Escort%20and%20aggressors%20in%20range%2023.pdf)
+* [EXERCISE RED THUNDER B: Strike+SEAD (without air threat), range 23](TASKINGS/EX%20RED%20THUNDER%20B%20-%20Strike%20and%20SEAD%20in%20range%2023.pdf)
+* [EXERCISE GREEN SHIELD](TASKINGS/EX_Green_Shield.md)
 
 
 ## RANGES
