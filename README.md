@@ -18,7 +18,7 @@ The 132nd Virtual Wing is based at Bodø Airbase, Norway. The 132nd conducts loc
 * [Tanker information](/TRMA-Brief/PAGES/Tanker.html)
 * [Airspace boundaries in Tacview](https://cloud.132virtualwing.org/s/2tGEax7xEqYGAXy)  NOT UPDATED
 * [Target List](/TRMA-Brief/PAGES/Targetlist.html)  
-* [Asir 2 Air Advesaries](/TRMA-Brief/PAGES/A2A.md)
+* [Air 2 Air Advesaries](/TRMA-Brief/PAGES/A2A.md)
 
 
 ## Exercises (Not updated from ATRM)
