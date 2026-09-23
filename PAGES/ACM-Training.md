@@ -59,3 +59,14 @@ A watchdog runs every 30 seconds.
 
 *  The aggressor templates are red, so a red player would get a
   same-coalition bandit that would never fight him.
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+## Back
+[Back to frontpage](https://132nd-vwing.github.io/TRMA-Brief/)
