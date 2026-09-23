@@ -15,7 +15,7 @@ in a multi-slot flight the last selection made wins.
 * **WVR / BFM** — the merge load: short-range IR and guns only.
 
 These are the same aggressor templates used by the range drones, so a bandit's fit is
-whatever that airframe carries in its `_BFM` or full A/A template.
+whatever that airframe carries in its BFM or full A/A template.
 
 
 
@@ -23,7 +23,7 @@ whatever that airframe carries in its `_BFM` or full A/A template.
 
 When you press **SPAWN BANDIT**:
 
-* **Bearing** — random, 000 to 359. You will not know where they are coming from.
+* **Bearing** — random. You will not know where they are coming from.
 * **Range** — 15 to 25 NM.
 * **Aspect** — nose-on. They are pointed straight back down the bearing at you.
 * **Altitude** — random inside a window from 7000 ft below you to 7000 ft above you.
