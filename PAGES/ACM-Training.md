@@ -1,6 +1,6 @@
 # ACM Training
 
-The ACM (Air Combat Maneuvering) mode is a self-service BFM. ** Only blue**
+The ACM (Air Combat Maneuvering) mode is a self-service BFM. **Only blue**
 player can call up a bandit from their own cockpit, at any time, anywhere on the map.
 
 ## Control
