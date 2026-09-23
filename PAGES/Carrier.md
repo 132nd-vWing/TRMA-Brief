@@ -113,4 +113,4 @@ You have to join the queue before XX:40 to get into this cycle.
 #### Changes
 - Marshal Queue Join buffer extended to 15m. 
 
-[Back to frontpage](https://132nd-vwing.github.io/TRMA_Brief/)
+[Back to frontpage](https://132nd-vwing.github.io/TRMA-Brief/)
