@@ -54,6 +54,52 @@ All tankers need to be activated via F10 menu.
 **SHELL 8**  | AR 503     | 240    | 44X       | 285.5 MHz     | 5503     | 
 **SHELL 9**  | AR 504     | 240    | 48X       | 288.5 MHz     | 5504     | 
 
+## Tanker control
+
+Tankers are spawned and controlled from the F10 menu:
+
+`F10 -> AWACS and TANKER Control -> TANKER Control -> Blue Tankers -> Boom | Drogue`
+
+`F10 -> AWACS and TANKER Control -> TANKER Control -> Red Tankers`
+
+Before a tanker is airborne its entry is just **Spawn ARxxx**. Once it spawns, that entry
+is replaced by a submenu whose title carries the tanker's current state:
+
+    AR201 (20000 ft, 300 kt IAS)
+      Climb 1000 ft
+      Descend 1000 ft
+      IAS +10 kt
+      IAS -10 kt
+      Despawn AR201
+
+So you can read what a tanker is doing off the menu without having to ask it.
+
+### Limits
+
+|              | **STEP**  | **MIN**      | **MAX**      |
+| ------------ | --------- | ------------ | ------------ |
+| **Altitude** | 1000 ft   | 3000 ft      | 45000 ft     |
+| **Speed**    | 10 kt     | 150 kt IAS   | 350 kt IAS   |
+
+Altitude is barometric. A request outside those limits is refused, nothing changes, and
+you get a message saying so. Asking a tanker that is not airborne to change anything gets
+*"ARxxx is not airborne."*
+
+### Notes
+
+* Speed is commanded and displayed as **indicated** airspeed — what you fly to on the
+  boom. DCS works in true airspeed underneath, so the speed is re-issued on every altitude change.
+* A tanker starts on its briefed orbit altitude and speed as listed in the tables above,
+  rounded to the nearest step. Your first change is relative to those, not to some
+  arbitrary default.
+* **The menu is mission-wide.** Any player can move any tanker, and every change is
+  announced to everyone. Coordinate on the radio first.
+* **Use with care — there are no guards.** Nothing stops a tanker being sent climbing or
+  descending while someone is plugged in. Do not change altitude or speed with receivers on the boom.
+* **List Active Tankers** reports each operating tanker's current altitude and IAS.
+* A despawn clears the stored altitude and speed. Spawning the tanker again brings it
+  back on its briefed numbers.
+
 ## Locations
 See CombatFlite file for locations
 ![Tanker Tracks](../GRAPHICS/TRMA_Tankers.PNG)
