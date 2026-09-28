@@ -2,14 +2,14 @@
 
 ## FW MQT checkout
 ### Targets
-The FW MQT checkout have two fixed targets (warehouse) in the area of Tromsø (Tromsø airfield will be the target when it is in place
-* Target 1 (NORTH): N69 41.067 E018 54.548 Elevation 20ft
-* Target 2 (SOUTH): N69 40.970 E018 54.479 Elevation 20ft
+The FW MQT checkout have DPI A and DPI B from TRMATGT004 as the intended target.
+Note: SA-6 threat 1-5nm WEST/NORTHWEST of TGT.
 
 
 
-### Locations
-![Locations](/TRMA-Brief/GRAPHICS/Range21_map.PNG)
+### Target Folder
+- [TRMATGT004 Tromsø Airfield](/TRMA-Brief/INTELLIGENCE/TRMATGT004_TROMSO Airfield.pdf)
+
 
 
 ### ADMIN
