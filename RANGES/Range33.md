@@ -1,9 +1,12 @@
 # Range 33
-rev 1.6
+rev 1.7
 
 ## Air to Air trainer
-The Air to Air training system provides both BFM and BVR training drones. The drones are deployed as CAP flights orginating in one of three patrol zones. The North, Centre, South patrol zones for Range 33 are roughly 70nm from the eastern edge.  
-4 configurable groups make presetting your requirement easy. There is no limit to the number of spawnable group yet.  
+The Air to Air training system provides both BFM and BVR training drones. The drones are deployed as CAP flights orginating in one of three patrol zones. The patrol zones for Range 33 range from west to east. Measued from the Range East edge they are:  
+- Far out - 150nm
+- Mid range - 100nm
+- CLose in - 60nm
+4 configurable groups make presetting your requirement easy. There is no limit to the number of spawnable groups yet.  
 
 ## Drone units
 The system currently includes: 
@@ -28,9 +31,15 @@ BFM max detection range ~30nm.
 Groups 1-4 allow the configuration of your required engagement airframes that can be configured through the Group Config Menu even before you leave the ground. 
 
 ## Enemy ROE
-- When spawned drones execute a CAP mission in the vacinity of their spawn zone. 
-- Drones will only engage targets inside the range.  
+- Drones groups execute a CAP mission in the vacinity of their spawn zone when they are first spawned. 
+- Drones will only engage targets inside the range.
+- Max detection range is only the possible maximum, it might be short (DCS mechanics)
+- Engagement range is not configurable. (see note)
 - If the drones leave the range, they will return to their initial mission. 
- 
+
+*Note: the engagement range is defined as maximum range in the drone templates, but their skill is set to average else they are impossible to beat, the side effect is that low skilled drones engage closer. There is no way around this.*
+
+![Locations](../GRAPHICS/TRMA_Range33_PatrolZones.png)
+
 ## Back
 [Back to frontpage](https://132nd-vwing.github.io/TRMA-Brief/)
