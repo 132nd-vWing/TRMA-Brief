@@ -3,7 +3,7 @@
 ## FW MQT checkout
 ### Targets
 The FW MQT checkout have DPI A and DPI B from TRMATGT004 as the intended target.
-Note: SA-6 threat 1-5nm WEST/NORTHWEST of TGT.
+Note: SA-6 threat 1-5nm EAST/NORTEAST of TGT.
 
 
 
