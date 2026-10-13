@@ -5,21 +5,21 @@ The 132nd Virtual Wing is based at Bodø Airbase, Norway. The 132nd conducts loc
 
 
 
-### Important information (Not updated from ATRM)
+### Important information
 * [How-to for external particpants](/ATRM_Brief/Pages/External.html)  
 * [Carrier admin](PAGES/Carrier.md)
 * [Navigation (FLIP ENBO CHARTS)](https://cloud.132virtualwing.org/s/q6PXgN7kwj9feem)  have those on your kneeboard!
 * [Navigation (FLIP other CHARTS)](https://cloud.132virtualwing.org/s/my92eGXa9NbLXKz)
 * [CombatFlite file for planning](PAGES/TRMA%20Combatflite%20file.cf)
 * NEW! [MissionPlot file for planning](PAGES/TRMA_MissionPlot_File_v2.ttm) Added 10/2026
-* [Red Force Doctrine/Intelligence](/TRMA-Brief/INTELLIGENCE/INTELLIGENCE.html) 
-* [Communication (frequencies, presets, datalink](/TRMA-Brief//COMMUNICATIONS/PRESETS.md)  
-* [Standing SPINS](/TRMA-Brief/PAGES/TRMA%20STANDING%20SPINS.pdf)
-* [Tanker information](/TRMA-Brief/PAGES/Tanker.html)
+* [Red Force Doctrine/Intelligence](INTELLIGENCE/INTELLIGENCE.html) 
+* [Communication (frequencies, presets, datalink](COMMUNICATIONS/PRESETS.md)  
+* [Standing SPINS](PAGES/TRMA%20STANDING%20SPINS.pdf)
+* [Tanker information](PAGES/Tanker.html)
 * [Airspace boundaries in Tacview](https://cloud.132virtualwing.org/s/2tGEax7xEqYGAXy)  NOT UPDATED
-* [Target List](/TRMA-Brief/PAGES/Targetlist.html)  
-* [Air 2 Air Advesaries](/TRMA-Brief/PAGES/A2A.md)
-* [ACM Training](/TRMA-Brief/PAGES/ACM-Training.md)
+* [Target List](PAGES/Targetlist.html)  
+* [Air 2 Air Advesaries](PAGES/A2A.md)
+* [ACM Training](PAGES/ACM-Training.md)
 
 
 ## Exercises (Not updated from ATRM)
@@ -36,14 +36,12 @@ Available taskings/scenarios:  <!--- sorted by tasking type, then range -->
 
 
 ## RANGES
-[Range 11](/TRMA-Brief/RANGES/Range11.html) | [Range 12](/TRMA-Brief/RANGES/Range12.html) |[Range 13](/TRMA-Brief/RANGES/Range13.html) |[Range 14](/TRMA-Brief/RANGES/Range14.html) |[Range 15](/TRMA-Brief/RANGES/Range15.html) |[Range 16](/TRMA-Brief/RANGES/Range16.html)| [Range 17](/TRMA-Brief/RANGES/Range17.html)|
-[Range 21](/TRMA-Brief/RANGES/Range21.html) | [Range 22](/TRMA-Brief/RANGES/Range22.html) |[Range 23](/TRMA-Brief/RANGES/Range23.html) |[Range 24](/TRMA-Brief/RANGES/Range24.html) |
-[Range 33](/TRMA-Brief/RANGES/Range33.html) | [Range 34](/TRMA-Brief/RANGES/Range34.html) |
-
-
+[Range 11](RANGES/Range11.html) | [Range 12](RANGES/Range12.html) |[Range 13](RANGES/Range13.html) |[Range 14](RANGES/Range14.html) |[Range 15](RANGES/Range15.html) |[Range 16](RANGES/Range16.html)| [Range 17](RANGES/Range17.html)|
+[Range 21](RANGES/Range21.html) | [Range 22](RANGES/Range22.html) |[Range 23](RANGES/Range23.html) |[Range 24](RANGES/Range24.html) |
+[Range 33](RANGES/Range33.html) | [Range 34](RANGES/Range34.html) |
 
 <!--![Ranges and MOAs](/GRAPHICS/TRMA Range layout.PNG)-->
-![Ranges and MOAs](/GRAPHICS/TRMA-range-layout-2.png)
+![Ranges and MOAs](GRAPHICS/TRMA-range-layout-2.png)
 
 
 
