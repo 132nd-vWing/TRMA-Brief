@@ -3,3 +3,5 @@ title: TRMA
 description: Training Mission Arctic briefing page
 show_downloads: false
 markdown: kramdown
+baseurl: "/TRMA-Brief"
+url: "https://132nd-vwing.github.io"
